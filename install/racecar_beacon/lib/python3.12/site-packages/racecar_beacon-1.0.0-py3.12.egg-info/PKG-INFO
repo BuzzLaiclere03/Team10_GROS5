@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: racecar-beacon
+Version: 1.0.0
+Summary: Package for GRO520-related features
+Maintainer: Marc-Olivier Fecteau
+Maintainer-email: fecm0701@usherbrooke.ca
+License: Apache-2.0
+License-File: LICENSE

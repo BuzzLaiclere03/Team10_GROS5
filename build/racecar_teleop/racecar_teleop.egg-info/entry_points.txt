@@ -1,0 +1,2 @@
+[console_scripts]
+slash_teleop = racecar_teleop.slash_teleop:main

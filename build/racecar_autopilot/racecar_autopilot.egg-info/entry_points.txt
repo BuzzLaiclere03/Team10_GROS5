@@ -1,0 +1,3 @@
+[console_scripts]
+slash_controller = racecar_autopilot.slash_controller:main
+wall_estimator = racecar_autopilot.wall_estimator:main

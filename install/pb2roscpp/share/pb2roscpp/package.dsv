@@ -1,0 +1,8 @@
+source;share/pb2roscpp/hook/cmake_prefix_path.ps1
+source;share/pb2roscpp/hook/cmake_prefix_path.dsv
+source;share/pb2roscpp/hook/cmake_prefix_path.sh
+source;share/pb2roscpp/local_setup.bash
+source;share/pb2roscpp/local_setup.dsv
+source;share/pb2roscpp/local_setup.ps1
+source;share/pb2roscpp/local_setup.sh
+source;share/pb2roscpp/local_setup.zsh

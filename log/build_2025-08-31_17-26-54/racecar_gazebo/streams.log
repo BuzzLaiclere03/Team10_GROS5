@@ -1,0 +1,83 @@
+[2.152s] Invoking command in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_gazebo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/racecar_gazebo build --build-base /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/build install --record /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/install.log --single-version-externally-managed install_data
+[2.733s] running egg_info
+[2.734s] creating ../../build/racecar_gazebo/racecar_gazebo.egg-info
+[2.777s] writing ../../build/racecar_gazebo/racecar_gazebo.egg-info/PKG-INFO
+[2.778s] writing dependency_links to ../../build/racecar_gazebo/racecar_gazebo.egg-info/dependency_links.txt
+[2.779s] writing entry points to ../../build/racecar_gazebo/racecar_gazebo.egg-info/entry_points.txt
+[2.779s] writing requirements to ../../build/racecar_gazebo/racecar_gazebo.egg-info/requires.txt
+[2.780s] writing top-level names to ../../build/racecar_gazebo/racecar_gazebo.egg-info/top_level.txt
+[2.781s] writing manifest file '../../build/racecar_gazebo/racecar_gazebo.egg-info/SOURCES.txt'
+[2.874s] reading manifest file '../../build/racecar_gazebo/racecar_gazebo.egg-info/SOURCES.txt'
+[2.876s] writing manifest file '../../build/racecar_gazebo/racecar_gazebo.egg-info/SOURCES.txt'
+[2.877s] running build
+[2.878s] running build_py
+[2.879s] creating /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/build
+[2.879s] creating /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/build/lib
+[2.879s] creating /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/build/lib/racecar_gazebo
+[2.879s] copying racecar_gazebo/cmd_vel_to_ackermann_drive.py -> /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/build/lib/racecar_gazebo
+[2.880s] copying racecar_gazebo/gazebo_odometry.py -> /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/build/lib/racecar_gazebo
+[2.880s] copying racecar_gazebo/__init__.py -> /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/build/lib/racecar_gazebo
+[2.881s] copying racecar_gazebo/servo_commands.py -> /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/build/lib/racecar_gazebo
+[2.884s] running install
+[2.894s] running install_lib
+[2.932s] creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/lib/python3.12/site-packages/racecar_gazebo
+[2.933s] copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/build/lib/racecar_gazebo/cmd_vel_to_ackermann_drive.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/lib/python3.12/site-packages/racecar_gazebo
+[2.933s] copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/build/lib/racecar_gazebo/gazebo_odometry.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/lib/python3.12/site-packages/racecar_gazebo
+[2.934s] copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/build/lib/racecar_gazebo/__init__.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/lib/python3.12/site-packages/racecar_gazebo
+[2.934s] copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/build/lib/racecar_gazebo/servo_commands.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/lib/python3.12/site-packages/racecar_gazebo
+[2.937s] byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/lib/python3.12/site-packages/racecar_gazebo/cmd_vel_to_ackermann_drive.py to cmd_vel_to_ackermann_drive.cpython-312.pyc
+[2.940s] byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/lib/python3.12/site-packages/racecar_gazebo/gazebo_odometry.py to gazebo_odometry.cpython-312.pyc
+[2.940s] byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/lib/python3.12/site-packages/racecar_gazebo/__init__.py to __init__.cpython-312.pyc
+[2.941s] byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/lib/python3.12/site-packages/racecar_gazebo/servo_commands.py to servo_commands.cpython-312.pyc
+[2.943s] running install_data
+[2.943s] creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/ament_index
+[2.944s] creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/ament_index/resource_index
+[2.944s] creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/ament_index/resource_index/packages
+[2.945s] copying resource/racecar_gazebo -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/ament_index/resource_index/packages
+[2.947s] copying package.xml -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo
+[2.949s] creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models
+[2.949s] creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/parking_1
+[2.950s] copying models/parking_1/model.sdf -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/parking_1
+[2.951s] copying models/parking_1/model.config -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/parking_1
+[2.951s] creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/cone
+[2.951s] copying models/cone/model.sdf -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/cone
+[2.952s] copying models/cone/model.config -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/cone
+[2.952s] creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/walker_racecourse
+[2.953s] copying models/walker_racecourse/model.sdf -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/walker_racecourse
+[2.955s] copying models/walker_racecourse/model.config -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/walker_racecourse
+[2.956s] creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/MIT_Tunnel
+[2.958s] copying models/MIT_Tunnel/ceiling_tiled.png -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/MIT_Tunnel
+[2.960s] copying models/MIT_Tunnel/model.sdf -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/MIT_Tunnel
+[2.960s] copying models/MIT_Tunnel/model.config -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/MIT_Tunnel
+[2.962s] creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/tunnel_genie
+[2.962s] copying models/tunnel_genie/model.sdf -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/tunnel_genie
+[2.963s] copying models/tunnel_genie/model.config -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/tunnel_genie
+[2.964s] creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/launch
+[2.965s] copying launch/gazebo_control.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/launch/
+[2.966s] copying launch/racecar_circuit.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/launch/
+[2.966s] copying launch/racecar_tunnel_genie.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/launch/
+[2.967s] copying launch/spawn_racecar.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/launch/
+[2.968s] copying launch/spawn_2_racecars.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/launch/
+[2.968s] copying launch/racecar_tunnel.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/launch/
+[2.969s] creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/worlds
+[2.970s] copying worlds/racecar_cones.world -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/worlds/
+[2.970s] copying worlds/racecar_circuit.world -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/worlds/
+[2.971s] copying worlds/racecar_parking_1.world -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/worlds/
+[2.971s] copying worlds/racecar_tunnel_genie.world -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/worlds/
+[2.972s] copying worlds/racecar.world -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/worlds/
+[2.973s] copying worlds/racecar_tunnel.world -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/worlds/
+[2.973s] creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/config
+[2.973s] copying config/gazebo_control.yaml -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/config/
+[2.974s] creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/meshes
+[2.975s] copying meshes/cone.dae -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/meshes/
+[2.976s] copying meshes/walker_racecourse.dae -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/meshes/
+[2.977s] copying meshes/parking_1.dae -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/meshes/
+[2.977s] copying meshes/walker_racecourse_gray.dae -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/meshes/
+[2.979s] running install_egg_info
+[3.027s] Copying ../../build/racecar_gazebo/racecar_gazebo.egg-info to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/lib/python3.12/site-packages/racecar_gazebo-0.0.0-py3.12.egg-info
+[3.029s] running install_scripts
+[3.328s] Installing cmd_vel_to_ackermann_drive script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/lib/racecar_gazebo
+[3.329s] Installing gazebo_odometry script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/lib/racecar_gazebo
+[3.329s] Installing servo_commands script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/lib/racecar_gazebo
+[3.334s] writing list of installed files to '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/install.log'
+[3.847s] Invoked command in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_gazebo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/racecar_gazebo build --build-base /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/build install --record /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/install.log --single-version-externally-managed install_data

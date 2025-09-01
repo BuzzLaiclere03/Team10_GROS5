@@ -1,0 +1,10 @@
+/home/racecar/ros2_ws/src/Team10_GROS5/build/serial/CMakeFiles/uninstall.dir
+/home/racecar/ros2_ws/src/Team10_GROS5/build/serial/CMakeFiles/serial_uninstall.dir
+/home/racecar/ros2_ws/src/Team10_GROS5/build/serial/CMakeFiles/serial.dir
+/home/racecar/ros2_ws/src/Team10_GROS5/build/serial/CMakeFiles/test.dir
+/home/racecar/ros2_ws/src/Team10_GROS5/build/serial/CMakeFiles/edit_cache.dir
+/home/racecar/ros2_ws/src/Team10_GROS5/build/serial/CMakeFiles/rebuild_cache.dir
+/home/racecar/ros2_ws/src/Team10_GROS5/build/serial/CMakeFiles/list_install_components.dir
+/home/racecar/ros2_ws/src/Team10_GROS5/build/serial/CMakeFiles/install.dir
+/home/racecar/ros2_ws/src/Team10_GROS5/build/serial/CMakeFiles/install/local.dir
+/home/racecar/ros2_ws/src/Team10_GROS5/build/serial/CMakeFiles/install/strip.dir

@@ -8,6 +8,7 @@ executables = [
     "remote_client",
     "ros_monitor",
     "vehicle_tracker",
+    "testTimer",
 ]
 
 setup(

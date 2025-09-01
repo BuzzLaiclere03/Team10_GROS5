@@ -1,0 +1,41 @@
+[2.531s] Invoking command in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_autopilot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/racecar_autopilot build --build-base /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/build install --record /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/install.log --single-version-externally-managed install_data
+[3.116s] running egg_info
+[3.116s] creating ../../build/racecar_autopilot/racecar_autopilot.egg-info
+[3.149s] writing ../../build/racecar_autopilot/racecar_autopilot.egg-info/PKG-INFO
+[3.149s] writing dependency_links to ../../build/racecar_autopilot/racecar_autopilot.egg-info/dependency_links.txt
+[3.150s] writing entry points to ../../build/racecar_autopilot/racecar_autopilot.egg-info/entry_points.txt
+[3.150s] writing requirements to ../../build/racecar_autopilot/racecar_autopilot.egg-info/requires.txt
+[3.150s] writing top-level names to ../../build/racecar_autopilot/racecar_autopilot.egg-info/top_level.txt
+[3.150s] writing manifest file '../../build/racecar_autopilot/racecar_autopilot.egg-info/SOURCES.txt'
+[3.229s] reading manifest file '../../build/racecar_autopilot/racecar_autopilot.egg-info/SOURCES.txt'
+[3.231s] writing manifest file '../../build/racecar_autopilot/racecar_autopilot.egg-info/SOURCES.txt'
+[3.233s] running build
+[3.233s] running build_py
+[3.233s] creating /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/build
+[3.233s] creating /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/build/lib
+[3.233s] creating /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/build/lib/racecar_autopilot
+[3.233s] copying racecar_autopilot/wall_estimator.py -> /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/build/lib/racecar_autopilot
+[3.235s] copying racecar_autopilot/slash_controller.py -> /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/build/lib/racecar_autopilot
+[3.236s] copying racecar_autopilot/__init__.py -> /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/build/lib/racecar_autopilot
+[3.237s] running install
+[3.261s] running install_lib
+[3.389s] creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/python3.12/site-packages/racecar_autopilot
+[3.390s] copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/build/lib/racecar_autopilot/wall_estimator.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/python3.12/site-packages/racecar_autopilot
+[3.392s] copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/build/lib/racecar_autopilot/slash_controller.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/python3.12/site-packages/racecar_autopilot
+[3.394s] copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/build/lib/racecar_autopilot/__init__.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/python3.12/site-packages/racecar_autopilot
+[3.400s] byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/python3.12/site-packages/racecar_autopilot/wall_estimator.py to wall_estimator.cpython-312.pyc
+[3.407s] byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/python3.12/site-packages/racecar_autopilot/slash_controller.py to slash_controller.cpython-312.pyc
+[3.416s] byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/python3.12/site-packages/racecar_autopilot/__init__.py to __init__.cpython-312.pyc
+[3.417s] running install_data
+[3.417s] creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/share/ament_index
+[3.418s] creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/share/ament_index/resource_index
+[3.418s] creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/share/ament_index/resource_index/packages
+[3.418s] copying resource/racecar_autopilot -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/share/ament_index/resource_index/packages
+[3.420s] copying package.xml -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/share/racecar_autopilot
+[3.420s] running install_egg_info
+[3.539s] Copying ../../build/racecar_autopilot/racecar_autopilot.egg-info to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/python3.12/site-packages/racecar_autopilot-0.0.0-py3.12.egg-info
+[3.545s] running install_scripts
+[4.396s] Installing slash_controller script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/racecar_autopilot
+[4.397s] Installing wall_estimator script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/racecar_autopilot
+[4.405s] writing list of installed files to '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/install.log'
+[4.933s] Invoked command in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_autopilot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/racecar_autopilot build --build-base /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/build install --record /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/install.log --single-version-externally-managed install_data

@@ -1,0 +1,4 @@
+[console_scripts]
+arduino_sensors = racecar_bringup.arduino_sensors:main
+cmd_vel_arbitration = racecar_bringup.cmd_vel_arbitration:main
+test = racecar_bringup.test:main

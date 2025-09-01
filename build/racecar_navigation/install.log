@@ -1,0 +1,17 @@
+/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/ament_index/resource_index/packages/racecar_navigation
+/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/package.xml
+/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/launch/kalmanFilter.launch.py
+/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/launch/navigation_stack.launch.py
+/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/launch/navigation.launch.py
+/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/launch/slam.launch.py
+/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/launch/rviz.launch.py
+/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/resource/nav2_params.yaml
+/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/resource/dual_ekf_params.yaml
+/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/resource/bringup.rviz
+/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/resource/rviz_navigation.rviz
+/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/lib/python3.12/site-packages/racecar_navigation-0.0.0-py3.12.egg-info/dependency_links.txt
+/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/lib/python3.12/site-packages/racecar_navigation-0.0.0-py3.12.egg-info/PKG-INFO
+/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/lib/python3.12/site-packages/racecar_navigation-0.0.0-py3.12.egg-info/requires.txt
+/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/lib/python3.12/site-packages/racecar_navigation-0.0.0-py3.12.egg-info/top_level.txt
+/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/lib/python3.12/site-packages/racecar_navigation-0.0.0-py3.12.egg-info/zip-safe
+/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/lib/python3.12/site-packages/racecar_navigation-0.0.0-py3.12.egg-info/SOURCES.txt

@@ -1,0 +1,62 @@
+running egg_info
+creating ../../build/racecar_beacon/racecar_beacon.egg-info
+writing ../../build/racecar_beacon/racecar_beacon.egg-info/PKG-INFO
+writing dependency_links to ../../build/racecar_beacon/racecar_beacon.egg-info/dependency_links.txt
+writing entry points to ../../build/racecar_beacon/racecar_beacon.egg-info/entry_points.txt
+writing requirements to ../../build/racecar_beacon/racecar_beacon.egg-info/requires.txt
+writing top-level names to ../../build/racecar_beacon/racecar_beacon.egg-info/top_level.txt
+writing manifest file '../../build/racecar_beacon/racecar_beacon.egg-info/SOURCES.txt'
+reading manifest file '../../build/racecar_beacon/racecar_beacon.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/racecar_beacon/racecar_beacon.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build
+creating /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build/lib
+creating /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build/lib/racecar_beacon
+copying racecar_beacon/lab_poll_pos.py -> /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build/lib/racecar_beacon
+copying racecar_beacon/ros_monitor.py -> /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build/lib/racecar_beacon
+copying racecar_beacon/utils.py -> /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build/lib/racecar_beacon
+copying racecar_beacon/vehicle_tracker.py -> /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build/lib/racecar_beacon
+copying racecar_beacon/remote_client.py -> /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build/lib/racecar_beacon
+copying racecar_beacon/__init__.py -> /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build/lib/racecar_beacon
+copying racecar_beacon/lab_chat_server.py -> /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build/lib/racecar_beacon
+copying racecar_beacon/lab_chat_client.py -> /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build/lib/racecar_beacon
+copying racecar_beacon/timerTest.py -> /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build/lib/racecar_beacon
+running install
+running install_lib
+creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon
+copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build/lib/racecar_beacon/lab_poll_pos.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon
+copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build/lib/racecar_beacon/ros_monitor.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon
+copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build/lib/racecar_beacon/utils.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon
+copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build/lib/racecar_beacon/vehicle_tracker.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon
+copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build/lib/racecar_beacon/remote_client.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon
+copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build/lib/racecar_beacon/__init__.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon
+copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build/lib/racecar_beacon/lab_chat_server.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon
+copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build/lib/racecar_beacon/lab_chat_client.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon
+copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build/lib/racecar_beacon/timerTest.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon
+byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon/lab_poll_pos.py to lab_poll_pos.cpython-312.pyc
+byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon/ros_monitor.py to ros_monitor.cpython-312.pyc
+byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon/utils.py to utils.cpython-312.pyc
+byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon/vehicle_tracker.py to vehicle_tracker.cpython-312.pyc
+byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon/remote_client.py to remote_client.cpython-312.pyc
+byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon/lab_chat_server.py to lab_chat_server.cpython-312.pyc
+byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon/lab_chat_client.py to lab_chat_client.cpython-312.pyc
+byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon/timerTest.py to timerTest.cpython-312.pyc
+running install_data
+creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/share/ament_index
+creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/share/ament_index/resource_index
+creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/share/ament_index/resource_index/packages
+copying resource/racecar_beacon -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/share/ament_index/resource_index/packages
+copying package.xml -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/share/racecar_beacon
+running install_egg_info
+Copying ../../build/racecar_beacon/racecar_beacon.egg-info to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon-1.0.0-py3.12.egg-info
+running install_scripts
+Installing lab_chat_client script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/racecar_beacon
+Installing lab_chat_server script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/racecar_beacon
+Installing lab_poll_pos script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/racecar_beacon
+Installing remote_client script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/racecar_beacon
+Installing ros_monitor script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/racecar_beacon
+Installing vehicle_tracker script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/racecar_beacon
+writing list of installed files to '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/install.log'

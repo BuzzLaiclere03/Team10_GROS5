@@ -1,0 +1,7 @@
+[console_scripts]
+lab_chat_client = racecar_beacon.lab_chat_client:main
+lab_chat_server = racecar_beacon.lab_chat_server:main
+lab_poll_pos = racecar_beacon.lab_poll_pos:main
+remote_client = racecar_beacon.remote_client:main
+ros_monitor = racecar_beacon.ros_monitor:main
+vehicle_tracker = racecar_beacon.vehicle_tracker:main

@@ -1,0 +1,34 @@
+[1.625s] Invoking command in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_navigation': AMENT_PREFIX_PATH=/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/lib/python3.12/site-packages:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/lib/python3.12/site-packages:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/racecar_navigation build --build-base /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_navigation/build install --record /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_navigation/install.log --single-version-externally-managed install_data
+[2.075s] running egg_info
+[2.075s] creating ../../build/racecar_navigation/racecar_navigation.egg-info
+[2.107s] writing ../../build/racecar_navigation/racecar_navigation.egg-info/PKG-INFO
+[2.107s] writing dependency_links to ../../build/racecar_navigation/racecar_navigation.egg-info/dependency_links.txt
+[2.107s] writing requirements to ../../build/racecar_navigation/racecar_navigation.egg-info/requires.txt
+[2.107s] writing top-level names to ../../build/racecar_navigation/racecar_navigation.egg-info/top_level.txt
+[2.107s] writing manifest file '../../build/racecar_navigation/racecar_navigation.egg-info/SOURCES.txt'
+[2.144s] reading manifest file '../../build/racecar_navigation/racecar_navigation.egg-info/SOURCES.txt'
+[2.144s] writing manifest file '../../build/racecar_navigation/racecar_navigation.egg-info/SOURCES.txt'
+[2.145s] running build
+[2.145s] running install
+[2.158s] running install_data
+[2.158s] creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/ament_index
+[2.158s] creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/ament_index/resource_index
+[2.158s] creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/ament_index/resource_index/packages
+[2.158s] copying resource/racecar_navigation -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/ament_index/resource_index/packages
+[2.158s] copying package.xml -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation
+[2.161s] creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/launch
+[2.161s] copying launch/kalmanFilter.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/launch
+[2.164s] copying launch/navigation_stack.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/launch
+[2.164s] copying launch/navigation.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/launch
+[2.165s] copying launch/slam.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/launch
+[2.169s] copying launch/rviz.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/launch
+[2.172s] creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/resource
+[2.172s] copying resource/nav2_params.yaml -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/resource
+[2.172s] copying resource/dual_ekf_params.yaml -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/resource
+[2.172s] copying resource/bringup.rviz -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/resource
+[2.175s] copying resource/rviz_navigation.rviz -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/resource
+[2.176s] running install_egg_info
+[2.273s] Copying ../../build/racecar_navigation/racecar_navigation.egg-info to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/lib/python3.12/site-packages/racecar_navigation-0.0.0-py3.12.egg-info
+[2.273s] running install_scripts
+[2.552s] writing list of installed files to '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_navigation/install.log'
+[2.632s] Invoked command in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_navigation' returned '0': AMENT_PREFIX_PATH=/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/lib/python3.12/site-packages:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/lib/python3.12/site-packages:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/racecar_navigation build --build-base /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_navigation/build install --record /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_navigation/install.log --single-version-externally-managed install_data
