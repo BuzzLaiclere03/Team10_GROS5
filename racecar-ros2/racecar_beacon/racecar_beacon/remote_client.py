@@ -9,6 +9,7 @@ NOTES:
 - This process MUST listen to a different port than the PositionBroadcast client;
 - A socket MUST be closed BEFORE exiting the process.
 """
+
 HOST = "10.0.0.42"
 PORT = 65432 
 
@@ -52,15 +53,6 @@ def remote_request(socket: socket):
                 print(f"\nObstacle detected: {obstacle_detected}\n")
         except(UnboundLocalError, ValueError):
             print("Not a choice, Enter : \nFor ID: 1\nFor Position: 2\nFor Obstacle detected: 3")
-
-
-        
-        
-        
-        
-
-
-    
 
 def main():
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

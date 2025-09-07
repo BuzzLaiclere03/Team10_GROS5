@@ -13,36 +13,35 @@ NOTES:
 HOST = str("10.0.0.255")
 PORT = int(65431)
 
-#sudo tcpdump -i any udp and dst host 10.0.0.255 and dst port 654321
-
 def main():
-    #socket, Internet et UDP
+    #Créer socket UDP
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     print("Vehicle tracker started")
     try:
-        #connexion au port
+        #Associer adresse et port au socket
         s.bind((HOST, PORT))
         while True:
-            #je veux 16 bytes
             print("waiting for data")
-            data, addr = s.recvfrom(16)
+            #On attend pour 16 octets, ignorer adresse
+            data, _ = s.recvfrom(16)
             print("data recieved")
+            #Pas de données
             if not data:
-               print("do nata")
+               print("no data")
                break
-            #unpack dans l'ordre packed par le sender. float, float, float, int. ! pour big endian
+            #unmarshalize dans l'ordre packed par le sender. float, float, float, int. ! pour big endian
             x, y, theta, ip_int = unpack('!fffi', data)
+            
+            #Mettre sur terminal dans l'ordre demandé
             print(f"x: {x:.3f}, y: {y:.3f}, theta: {theta:.3f}, (ip: {ip_int})")
+            
+    #Manual Interrupt
     except KeyboardInterrupt:
         print("interrupted")
+    #Fermer le socket
     finally:
         print("Leaving app...")
         s.close()
-
-#def main():
-    # TODO: Implement the PositionBroadcast client here.
-#    pass
-
 
 if __name__ == "__main__":
     main()
