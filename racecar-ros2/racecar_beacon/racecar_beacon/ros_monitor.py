@@ -53,7 +53,7 @@ class ROSMonitor(Node):
 
         #Inscription aux topics ROS
         self.subscription = self.create_subscription(Odometry, "odometry/filtered", self.odom_callback, 1)
-        self.sub_laser = self.create_subscription(LaserScan, "/scan", self.odom_callback, 1)
+        self.sub_laser = self.create_subscription(LaserScan, "/scan", self.lidar_callback, 1)
 
         #Commencer le thread
         self.remote_request_t.start()

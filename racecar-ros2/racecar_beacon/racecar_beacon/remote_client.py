@@ -31,24 +31,24 @@ def remote_request(socket: socket):
 
             if input_data == VehicleData.ID.value:  
                 data = socket.recv(16)
-                print(f"Recieved data: {data}")
-                print(f"Received hex: {data.hex()}")  # shows 00000002
+                #print(f"Recieved data: {data}")
+                #print(f"Received hex: {data.hex()}")  # shows 00000002
                 vehicle_id = unpack('!i12x', data)[0]
                 print(f"\nID: {vehicle_id}\n")
 
 
             elif input_data == VehicleData.POSITION.value:  
                 data = socket.recv(16)
-                print(f"Recieved data: {data}")
-                print(f"Received hex: {data.hex()}")  # shows 00000002
+                #print(f"Recieved data: {data}")
+                #print(f"Received hex: {data.hex()}")  # shows 00000002
                 pos_x, pos_y, pos_yaw = unpack('!fff4x', data)
                 print(f"\nPosition: x={pos_x:.3f}, y={pos_y:.3f}, yaw={pos_yaw:.3f}\n")
 
 
             elif input_data == VehicleData.OBSTACLE_DETECTED.value:
                 data = socket.recv(16)
-                print(f"Recieved data: {data}")
-                print(f"Received hex: {data.hex()}")  # shows 00000002
+                #print(f"Recieved data: {data}")
+                #print(f"Received hex: {data.hex()}")  # shows 00000002
                 obstacle_detected = unpack('!i12x', data)[0]
                 print(f"\nObstacle detected: {obstacle_detected}\n")
         except(UnboundLocalError, ValueError):
@@ -65,7 +65,7 @@ def main():
     except(ConnectionError):
         print(f"Unable to connect to {HOST}. Connection error")
     finally:
-        print("give up. go home. try another day")
+        print("Ended")
     s.close()
 
 
