@@ -1,0 +1,36 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/racecar/ros2_ws/build/tutorial_package",
+        "/home/racecar/ros2_ws/install/tutorial_package/lib/python3.12/site-packages",
+        "/home/racecar/ros2_ws/install/turtlesim/lib/python3.12/site-packages",
+        "/home/racecar/ros2_ws/build/racecar_teleop",
+        "/home/racecar/ros2_ws/install/racecar_teleop/lib/python3.12/site-packages",
+        "/home/racecar/ros2_ws/install/racecar_navigation/lib/python3.12/site-packages",
+        "/home/racecar/ros2_ws/install/racecar_gazebo/lib/python3.12/site-packages",
+        "/home/racecar/ros2_ws/install/racecar_description/lib/python3.12/site-packages",
+        "/home/racecar/ros2_ws/install/racecar_bringup/lib/python3.12/site-packages",
+        "/home/racecar/ros2_ws/install/racecar_behaviors/lib/python3.12/site-packages",
+        "/home/racecar/ros2_ws/install/racecar_beacon/lib/python3.12/site-packages",
+        "/home/racecar/ros2_ws/install/racecar_autopilot/lib/python3.12/site-packages",
+        "/home/racecar/ros2_ws/install/py_pubsub/lib/python3.12/site-packages",
+        "/home/racecar/ros2_ws/install/my_package/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/racecar/ros2_ws/build/tutorial_package",
+        "/home/racecar/ros2_ws/install/tutorial_package/lib/python3.12/site-packages",
+        "/home/racecar/ros2_ws/install/turtlesim/lib/python3.12/site-packages",
+        "/home/racecar/ros2_ws/build/racecar_teleop",
+        "/home/racecar/ros2_ws/install/racecar_teleop/lib/python3.12/site-packages",
+        "/home/racecar/ros2_ws/install/racecar_navigation/lib/python3.12/site-packages",
+        "/home/racecar/ros2_ws/install/racecar_gazebo/lib/python3.12/site-packages",
+        "/home/racecar/ros2_ws/install/racecar_description/lib/python3.12/site-packages",
+        "/home/racecar/ros2_ws/install/racecar_bringup/lib/python3.12/site-packages",
+        "/home/racecar/ros2_ws/install/racecar_behaviors/lib/python3.12/site-packages",
+        "/home/racecar/ros2_ws/install/racecar_beacon/lib/python3.12/site-packages",
+        "/home/racecar/ros2_ws/install/racecar_autopilot/lib/python3.12/site-packages",
+        "/home/racecar/ros2_ws/install/py_pubsub/lib/python3.12/site-packages",
+        "/home/racecar/ros2_ws/install/my_package/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}

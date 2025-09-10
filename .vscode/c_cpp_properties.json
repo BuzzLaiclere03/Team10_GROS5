@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/racecar/ros2_ws/install/turtlesim/include/**",
+        "/home/racecar/ros2_ws/install/serial/include/**",
+        "/opt/ros/jazzy/include/**",
+        "/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_serial/libserial/include/**",
+        "/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_serial/pb2roscpp/include/**",
+        "/home/racecar/ros2_ws/src/ros_tutorials/turtlesim/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-arm64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
