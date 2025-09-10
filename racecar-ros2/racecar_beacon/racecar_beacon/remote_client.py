@@ -22,13 +22,17 @@ def remote_request(socket: socket):
     while True:
         print(f"Enter : \nFor ID: {VehicleData.ID.value}\nFor Position: {VehicleData.POSITION.value}\nFor Obstacle detected: {VehicleData.OBSTACLE_DETECTED.value}")
         try:
+            #Recoit et analyse ce que l'utilisateur veut
             input_data = input().strip()
             if input_data not in [v.value for v in VehicleData]:
                 print("Not a choice, Enter : \nFor ID: 1\nFor Position: 2\nFor Obstacle detected: 3")
                 continue
+
+            #Encode le message et l'envoie au racecar
             print(f"Sending input {input_data} to the server")
             socket.send(pack('!4s', input_data.encode("ascii")))
 
+            #Décode et print les données reçues dépendant de quelle type de donnée on voulait
             if input_data == VehicleData.ID.value:  
                 data = socket.recv(16)
                 #print(f"Recieved data: {data}")
@@ -51,15 +55,22 @@ def remote_request(socket: socket):
                 #print(f"Received hex: {data.hex()}")  # shows 00000002
                 obstacle_detected = unpack('!i12x', data)[0]
                 print(f"\nObstacle detected: {obstacle_detected}\n")
+
+        #Erreur dans l'input de l'utilisateur
         except(UnboundLocalError, ValueError):
             print("Not a choice, Enter : \nFor ID: 1\nFor Position: 2\nFor Obstacle detected: 3")
 
 def main():
+    #Crée le socket
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     print(f"remote_client is starting. \nConnecting to the beacon server at {HOST}")
+
+    #Essaie de se connecter au socket
     try:
         s.connect((HOST, PORT))
         remote_request(s)
+
+    #Si erreur lors de la connexion, fin du programme
     except(ConnectionRefusedError):
         print(f"Unable to connect to {HOST}. Connection refused")
     except(ConnectionError):
