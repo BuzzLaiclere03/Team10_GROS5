@@ -54,13 +54,12 @@ class ROSMonitor(Node):
         self.udpsock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR,1)
 
         #Inscription aux topics ROS
-<<<<<<< HEAD
         self.subscription = self.create_subscription(Odometry, "odometry/filtered", self.odom_callback, 1)
         self.sub_laser = self.create_subscription(LaserScan, "/scan", self.lidar_callback, 1)
-=======
+
         self.subscription = self.create_subscription(Odometry, "/racecar/odom/filtered", self.odom_callback, 1)
         self.sub_laser = self.create_subscription(LaserScan, "/racecar/scan", self.lidar_callback, 1)
->>>>>>> 9d01f5c (APP1 final push)
+
 
         #Commencer le thread
         self.remote_request_t.start()
