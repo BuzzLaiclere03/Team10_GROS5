@@ -1,0 +1,37 @@
+[3.907s] Invoking command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/build --no-deps symlink_data --force
+[5.277s] running develop
+[5.921s] running egg_info
+[5.988s] writing racecar_description.egg-info/PKG-INFO
+[6.011s] writing dependency_links to racecar_description.egg-info/dependency_links.txt
+[6.012s] writing requirements to racecar_description.egg-info/requires.txt
+[6.013s] writing top-level names to racecar_description.egg-info/top_level.txt
+[6.047s] reading manifest file 'racecar_description.egg-info/SOURCES.txt'
+[6.049s] writing manifest file 'racecar_description.egg-info/SOURCES.txt'
+[6.180s] running build_ext
+[6.257s] Creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/lib/python3.12/site-packages/racecar-description.egg-link (link to .)
+[6.259s] 
+[6.260s] Installed /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description
+[6.260s] running symlink_data
+[6.260s] symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/resource/racecar_description -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/ament_index/resource_index/packages
+[6.261s] symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/package.xml -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description
+[6.263s] symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/urdf/materials.xacro -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/urdf
+[6.266s] symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/urdf/racecar.xacro -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/urdf
+[6.266s] symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/urdf/macros.xacro -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/urdf
+[6.270s] symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/urdf/racecar.gazebo -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/urdf
+[6.272s] symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/meshes/right_rear_wheel.dae -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+[6.272s] symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/meshes/left_steering_hinge.STL -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+[6.274s] symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/meshes/right_front_wheel.STL -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+[6.275s] symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/meshes/left_steering_hinge.dae -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+[6.277s] symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/meshes/right_steering_hinge.dae -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+[6.280s] symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/meshes/chassis.dae -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+[6.281s] symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/meshes/chassis.STL -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+[6.281s] symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/meshes/hokuyo.dae -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+[6.281s] symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/meshes/right_front_wheel.dae -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+[6.281s] symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/meshes/left_front_wheel.dae -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+[6.285s] symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/meshes/left_front_wheel.STL -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+[6.286s] symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/meshes/left_rear_wheel.STL -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+[6.286s] symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/meshes/left_rear_wheel.dae -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+[6.286s] symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/meshes/right_rear_wheel.STL -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+[6.287s] symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/meshes/right_steering_hinge.STL -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+[6.287s] symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/config/ros_bridge.yaml -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/config
+[7.031s] Invoked command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/build --no-deps symlink_data --force

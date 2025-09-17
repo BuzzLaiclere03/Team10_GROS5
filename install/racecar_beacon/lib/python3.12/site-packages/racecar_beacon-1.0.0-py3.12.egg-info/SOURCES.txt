@@ -15,7 +15,10 @@ racecar_beacon/lab_chat_server.py
 racecar_beacon/lab_poll_pos.py
 racecar_beacon/remote_client.py
 racecar_beacon/ros_monitor.py
+<<<<<<< HEAD
 racecar_beacon/timerTest.py
+=======
+>>>>>>> 5f8b865 (bag recording)
 racecar_beacon/utils.py
 racecar_beacon/vehicle_tracker.py
 resource/racecar_beacon

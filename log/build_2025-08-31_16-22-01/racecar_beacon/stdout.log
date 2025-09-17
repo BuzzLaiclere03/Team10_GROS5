@@ -1,0 +1,22 @@
+running develop
+running egg_info
+writing racecar_beacon.egg-info/PKG-INFO
+writing dependency_links to racecar_beacon.egg-info/dependency_links.txt
+writing entry points to racecar_beacon.egg-info/entry_points.txt
+writing requirements to racecar_beacon.egg-info/requires.txt
+writing top-level names to racecar_beacon.egg-info/top_level.txt
+reading manifest file 'racecar_beacon.egg-info/SOURCES.txt'
+writing manifest file 'racecar_beacon.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar-beacon.egg-link (link to .)
+Installing lab_chat_client script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/racecar_beacon
+Installing lab_chat_server script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/racecar_beacon
+Installing lab_poll_pos script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/racecar_beacon
+Installing remote_client script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/racecar_beacon
+Installing ros_monitor script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/racecar_beacon
+Installing vehicle_tracker script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/racecar_beacon
+
+Installed /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon
+running symlink_data
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/resource/racecar_beacon -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/share/ament_index/resource_index/packages
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/package.xml -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/share/racecar_beacon

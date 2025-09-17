@@ -1,0 +1,62 @@
+running egg_info
+creating ../../build/racecar_behaviors/racecar_behaviors.egg-info
+writing ../../build/racecar_behaviors/racecar_behaviors.egg-info/PKG-INFO
+writing dependency_links to ../../build/racecar_behaviors/racecar_behaviors.egg-info/dependency_links.txt
+writing entry points to ../../build/racecar_behaviors/racecar_behaviors.egg-info/entry_points.txt
+writing requirements to ../../build/racecar_behaviors/racecar_behaviors.egg-info/requires.txt
+writing top-level names to ../../build/racecar_behaviors/racecar_behaviors.egg-info/top_level.txt
+writing manifest file '../../build/racecar_behaviors/racecar_behaviors.egg-info/SOURCES.txt'
+reading manifest file '../../build/racecar_behaviors/racecar_behaviors.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/racecar_behaviors/racecar_behaviors.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/build
+creating /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/build/lib
+creating /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/build/lib/racecar_behaviors
+copying racecar_behaviors/laserscan_to_pointcloud.py -> /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/build/lib/racecar_behaviors
+copying racecar_behaviors/labo_brushfire.py -> /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/build/lib/racecar_behaviors
+copying racecar_behaviors/blob_detector.py -> /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/build/lib/racecar_behaviors
+copying racecar_behaviors/obstacle_detector.py -> /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/build/lib/racecar_behaviors
+copying racecar_behaviors/libbehaviors.py -> /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/build/lib/racecar_behaviors
+copying racecar_behaviors/__init__.py -> /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/build/lib/racecar_behaviors
+copying racecar_behaviors/path_following.py -> /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/build/lib/racecar_behaviors
+running install
+running install_lib
+creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/python3.12/site-packages/racecar_behaviors
+copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/build/lib/racecar_behaviors/laserscan_to_pointcloud.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/python3.12/site-packages/racecar_behaviors
+copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/build/lib/racecar_behaviors/labo_brushfire.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/python3.12/site-packages/racecar_behaviors
+copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/build/lib/racecar_behaviors/blob_detector.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/python3.12/site-packages/racecar_behaviors
+copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/build/lib/racecar_behaviors/obstacle_detector.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/python3.12/site-packages/racecar_behaviors
+copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/build/lib/racecar_behaviors/libbehaviors.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/python3.12/site-packages/racecar_behaviors
+copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/build/lib/racecar_behaviors/__init__.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/python3.12/site-packages/racecar_behaviors
+copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/build/lib/racecar_behaviors/path_following.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/python3.12/site-packages/racecar_behaviors
+byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/python3.12/site-packages/racecar_behaviors/laserscan_to_pointcloud.py to laserscan_to_pointcloud.cpython-312.pyc
+byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/python3.12/site-packages/racecar_behaviors/labo_brushfire.py to labo_brushfire.cpython-312.pyc
+byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/python3.12/site-packages/racecar_behaviors/blob_detector.py to blob_detector.cpython-312.pyc
+byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/python3.12/site-packages/racecar_behaviors/obstacle_detector.py to obstacle_detector.cpython-312.pyc
+byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/python3.12/site-packages/racecar_behaviors/libbehaviors.py to libbehaviors.cpython-312.pyc
+byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/python3.12/site-packages/racecar_behaviors/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/python3.12/site-packages/racecar_behaviors/path_following.py to path_following.cpython-312.pyc
+running install_data
+creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/share/ament_index
+creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/share/ament_index/resource_index
+creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/share/ament_index/resource_index/packages
+copying resource/racecar_behaviors -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/share/ament_index/resource_index/packages
+copying package.xml -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/share/racecar_behaviors
+copying launch/behaviors.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/share/racecar_behaviors
+copying launch/blob_detection.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/share/racecar_behaviors
+copying cfg/BlobDetector.cfg -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/share/racecar_behaviors
+running install_egg_info
+Copying ../../build/racecar_behaviors/racecar_behaviors.egg-info to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/python3.12/site-packages/racecar_behaviors-0.0.0-py3.12.egg-info
+running install_scripts
+Installing blob_detector script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors
+Installing goal_planner script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors
+Installing labo_brushfire script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors
+Installing laserscan_to_pointcloud script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors
+Installing libbehaviors script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors
+Installing obstacle_detector script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors
+Installing path_following script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors
+Installing u_turn script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors
+Installing u_turn_goal script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors
+writing list of installed files to '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/install.log'

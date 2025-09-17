@@ -1,0 +1,19 @@
+[3.880s] Invoking command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_teleop': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_teleop/build --no-deps symlink_data --force
+[5.150s] running develop
+[5.756s] running egg_info
+[5.835s] writing racecar_teleop.egg-info/PKG-INFO
+[5.847s] writing dependency_links to racecar_teleop.egg-info/dependency_links.txt
+[5.864s] writing entry points to racecar_teleop.egg-info/entry_points.txt
+[5.865s] writing requirements to racecar_teleop.egg-info/requires.txt
+[5.865s] writing top-level names to racecar_teleop.egg-info/top_level.txt
+[5.943s] reading manifest file 'racecar_teleop.egg-info/SOURCES.txt'
+[5.943s] writing manifest file 'racecar_teleop.egg-info/SOURCES.txt'
+[6.035s] running build_ext
+[6.035s] Creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_teleop/lib/python3.12/site-packages/racecar-teleop.egg-link (link to .)
+[6.037s] Installing slash_teleop script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_teleop/lib/racecar_teleop
+[6.039s] 
+[6.052s] Installed /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_teleop
+[6.052s] running symlink_data
+[6.053s] symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_teleop/resource/racecar_teleop -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_teleop/share/ament_index/resource_index/packages
+[6.053s] symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_teleop/package.xml -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_teleop/share/racecar_teleop
+[6.349s] Invoked command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_teleop' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_teleop/build --no-deps symlink_data --force

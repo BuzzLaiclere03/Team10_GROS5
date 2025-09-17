@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing racecar_teleop.egg-info/PKG-INFO
+writing dependency_links to racecar_teleop.egg-info/dependency_links.txt
+writing entry points to racecar_teleop.egg-info/entry_points.txt
+writing requirements to racecar_teleop.egg-info/requires.txt
+writing top-level names to racecar_teleop.egg-info/top_level.txt
+reading manifest file 'racecar_teleop.egg-info/SOURCES.txt'
+writing manifest file 'racecar_teleop.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_teleop/lib/python3.12/site-packages/racecar-teleop.egg-link (link to .)
+Installing slash_teleop script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_teleop/lib/racecar_teleop
+
+Installed /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_teleop
+running symlink_data
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_teleop/resource/racecar_teleop -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_teleop/share/ament_index/resource_index/packages
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_teleop/package.xml -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_teleop/share/racecar_teleop

@@ -1,0 +1,50 @@
+[2.549s] Invoking command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build
+[3.498s] running develop
+[4.069s] Removing /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar-beacon.egg-link (link to .)
+[4.829s] Invoked command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build
+[4.830s] Invoking command in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_beacon': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/racecar_beacon build --build-base /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build install --record /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/install.log --single-version-externally-managed install_data --force
+[5.538s] running egg_info
+[5.591s] writing ../../build/racecar_beacon/racecar_beacon.egg-info/PKG-INFO
+[5.591s] writing dependency_links to ../../build/racecar_beacon/racecar_beacon.egg-info/dependency_links.txt
+[5.592s] writing entry points to ../../build/racecar_beacon/racecar_beacon.egg-info/entry_points.txt
+[5.594s] writing requirements to ../../build/racecar_beacon/racecar_beacon.egg-info/requires.txt
+[5.605s] writing top-level names to ../../build/racecar_beacon/racecar_beacon.egg-info/top_level.txt
+[5.727s] reading manifest file '../../build/racecar_beacon/racecar_beacon.egg-info/SOURCES.txt'
+[5.728s] adding license file 'LICENSE'
+[5.729s] writing manifest file '../../build/racecar_beacon/racecar_beacon.egg-info/SOURCES.txt'
+[5.729s] running build
+[5.729s] running build_py
+[5.730s] copying racecar_beacon/ros_monitor.py -> /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build/lib/racecar_beacon
+[5.731s] running install
+[5.742s] running install_lib
+[5.785s] creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon
+[5.785s] copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build/lib/racecar_beacon/lab_poll_pos.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon
+[5.786s] copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build/lib/racecar_beacon/ros_monitor.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon
+[5.786s] copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build/lib/racecar_beacon/utils.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon
+[5.786s] copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build/lib/racecar_beacon/vehicle_tracker.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon
+[5.787s] copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build/lib/racecar_beacon/remote_client.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon
+[5.787s] copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build/lib/racecar_beacon/__init__.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon
+[5.787s] copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build/lib/racecar_beacon/lab_chat_server.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon
+[5.787s] copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build/lib/racecar_beacon/lab_chat_client.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon
+[5.788s] byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon/lab_poll_pos.py to lab_poll_pos.cpython-312.pyc
+[5.789s] byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon/ros_monitor.py to ros_monitor.cpython-312.pyc
+[5.790s] byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon/utils.py to utils.cpython-312.pyc
+[5.791s] byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon/vehicle_tracker.py to vehicle_tracker.cpython-312.pyc
+[5.791s] byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon/remote_client.py to remote_client.cpython-312.pyc
+[5.792s] byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon/__init__.py to __init__.cpython-312.pyc
+[5.792s] byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon/lab_chat_server.py to lab_chat_server.cpython-312.pyc
+[5.792s] byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon/lab_chat_client.py to lab_chat_client.cpython-312.pyc
+[5.793s] running install_data
+[5.793s] copying resource/racecar_beacon -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/share/ament_index/resource_index/packages
+[5.793s] copying package.xml -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/share/racecar_beacon
+[5.793s] running install_egg_info
+[5.844s] Copying ../../build/racecar_beacon/racecar_beacon.egg-info to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon-1.0.0-py3.12.egg-info
+[5.847s] running install_scripts
+[6.198s] Installing lab_chat_client script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/racecar_beacon
+[6.199s] Installing lab_chat_server script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/racecar_beacon
+[6.200s] Installing lab_poll_pos script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/racecar_beacon
+[6.201s] Installing remote_client script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/racecar_beacon
+[6.203s] Installing ros_monitor script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/racecar_beacon
+[6.204s] Installing vehicle_tracker script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/racecar_beacon
+[6.207s] writing list of installed files to '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/install.log'
+[6.355s] Invoked command in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_beacon' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/racecar_beacon build --build-base /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build install --record /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/install.log --single-version-externally-managed install_data --force

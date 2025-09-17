@@ -1,0 +1,24 @@
+running develop
+running egg_info
+writing racecar_navigation.egg-info/PKG-INFO
+writing dependency_links to racecar_navigation.egg-info/dependency_links.txt
+writing requirements to racecar_navigation.egg-info/requires.txt
+writing top-level names to racecar_navigation.egg-info/top_level.txt
+reading manifest file 'racecar_navigation.egg-info/SOURCES.txt'
+writing manifest file 'racecar_navigation.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/lib/python3.12/site-packages/racecar-navigation.egg-link (link to .)
+
+Installed /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_navigation
+running symlink_data
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_navigation/resource/racecar_navigation -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/ament_index/resource_index/packages
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_navigation/package.xml -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_navigation/launch/kalmanFilter.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/launch
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_navigation/launch/navigation_stack.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/launch
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_navigation/launch/navigation.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/launch
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_navigation/launch/slam.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/launch
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_navigation/launch/rviz.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/launch
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_navigation/resource/nav2_params.yaml -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/resource
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_navigation/resource/dual_ekf_params.yaml -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/resource
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_navigation/resource/bringup.rviz -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/resource
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_navigation/resource/rviz_navigation.rviz -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/resource

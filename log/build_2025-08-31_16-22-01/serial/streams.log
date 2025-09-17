@@ -1,0 +1,36 @@
+[0.846s] Invoking command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/racecar/ros2_ws/install/racecar_teleop:/home/racecar/ros2_ws/install/racecar_navigation:/home/racecar/ros2_ws/install/racecar_gazebo:/home/racecar/ros2_ws/install/racecar_description:/home/racecar/ros2_ws/install/racecar_bringup:/home/racecar/ros2_ws/install/racecar_behaviors:/home/racecar/ros2_ws/install/racecar_beacon:/home/racecar/ros2_ws/install/racecar_autopilot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_serial/libserial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/racecar/ros2_ws/src/Team10_GROS5/install/serial
+[0.881s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.414s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.808s] -- Configuring done (0.9s)
+[1.824s] -- Generating done (0.0s)
+[1.841s] -- Build files have been written to: /home/racecar/ros2_ws/src/Team10_GROS5/build/serial
+[1.855s] Invoked command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/racecar/ros2_ws/install/racecar_teleop:/home/racecar/ros2_ws/install/racecar_navigation:/home/racecar/ros2_ws/install/racecar_gazebo:/home/racecar/ros2_ws/install/racecar_description:/home/racecar/ros2_ws/install/racecar_bringup:/home/racecar/ros2_ws/install/racecar_behaviors:/home/racecar/ros2_ws/install/racecar_beacon:/home/racecar/ros2_ws/install/racecar_autopilot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_serial/libserial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/racecar/ros2_ws/src/Team10_GROS5/install/serial
+[1.856s] Invoking command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/racecar/ros2_ws/install/racecar_teleop:/home/racecar/ros2_ws/install/racecar_navigation:/home/racecar/ros2_ws/install/racecar_gazebo:/home/racecar/ros2_ws/install/racecar_description:/home/racecar/ros2_ws/install/racecar_bringup:/home/racecar/ros2_ws/install/racecar_behaviors:/home/racecar/ros2_ws/install/racecar_beacon:/home/racecar/ros2_ws/install/racecar_autopilot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/racecar/ros2_ws/src/Team10_GROS5/build/serial -- -j4 -l4
+[2.043s] [100%] Built target serial
+[2.102s] Invoked command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/racecar/ros2_ws/install/racecar_teleop:/home/racecar/ros2_ws/install/racecar_navigation:/home/racecar/ros2_ws/install/racecar_gazebo:/home/racecar/ros2_ws/install/racecar_description:/home/racecar/ros2_ws/install/racecar_bringup:/home/racecar/ros2_ws/install/racecar_behaviors:/home/racecar/ros2_ws/install/racecar_beacon:/home/racecar/ros2_ws/install/racecar_autopilot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/racecar/ros2_ws/src/Team10_GROS5/build/serial -- -j4 -l4
+[2.153s] Invoking command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/racecar/ros2_ws/install/racecar_teleop:/home/racecar/ros2_ws/install/racecar_navigation:/home/racecar/ros2_ws/install/racecar_gazebo:/home/racecar/ros2_ws/install/racecar_description:/home/racecar/ros2_ws/install/racecar_bringup:/home/racecar/ros2_ws/install/racecar_behaviors:/home/racecar/ros2_ws/install/racecar_beacon:/home/racecar/ros2_ws/install/racecar_autopilot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/racecar/ros2_ws/src/Team10_GROS5/build/serial
+[2.175s] -- Install configuration: ""
+[2.176s] -- Execute custom install script
+[2.177s] -- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/environment/library_path.sh
+[2.207s] -- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/environment/library_path.dsv
+[2.228s] -- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/lib/libserial.a
+[2.253s] -- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/include/serial/serial.h
+[2.286s] -- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/include/serial/v8stdint.h
+[2.333s] -- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[2.359s] -- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[2.400s] -- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/environment/ament_prefix_path.sh
+[2.423s] -- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/environment/ament_prefix_path.dsv
+[2.452s] -- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/environment/path.sh
+[2.523s] -- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/environment/path.dsv
+[2.561s] -- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/local_setup.bash
+[2.596s] -- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/local_setup.sh
+[2.618s] -- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/local_setup.zsh
+[2.639s] -- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/local_setup.dsv
+[2.685s] -- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/package.dsv
+[2.751s] -- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/ament_index/resource_index/packages/serial
+[2.774s] -- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.808s] -- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[2.829s] -- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/cmake/serialConfig.cmake
+[2.853s] -- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/cmake/serialConfig-version.cmake
+[2.916s] -- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/package.xml
+[2.960s] Invoked command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/racecar/ros2_ws/install/racecar_teleop:/home/racecar/ros2_ws/install/racecar_navigation:/home/racecar/ros2_ws/install/racecar_gazebo:/home/racecar/ros2_ws/install/racecar_description:/home/racecar/ros2_ws/install/racecar_bringup:/home/racecar/ros2_ws/install/racecar_behaviors:/home/racecar/ros2_ws/install/racecar_beacon:/home/racecar/ros2_ws/install/racecar_autopilot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/racecar/ros2_ws/src/Team10_GROS5/build/serial

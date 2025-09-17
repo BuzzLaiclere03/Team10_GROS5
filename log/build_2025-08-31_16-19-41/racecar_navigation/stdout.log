@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/racecar_navigation/racecar_navigation.egg-info
+writing ../../build/racecar_navigation/racecar_navigation.egg-info/PKG-INFO
+writing dependency_links to ../../build/racecar_navigation/racecar_navigation.egg-info/dependency_links.txt
+writing requirements to ../../build/racecar_navigation/racecar_navigation.egg-info/requires.txt
+writing top-level names to ../../build/racecar_navigation/racecar_navigation.egg-info/top_level.txt
+writing manifest file '../../build/racecar_navigation/racecar_navigation.egg-info/SOURCES.txt'
+reading manifest file '../../build/racecar_navigation/racecar_navigation.egg-info/SOURCES.txt'
+writing manifest file '../../build/racecar_navigation/racecar_navigation.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/ament_index
+creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/ament_index/resource_index
+creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/ament_index/resource_index/packages
+copying resource/racecar_navigation -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/ament_index/resource_index/packages
+copying package.xml -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation
+creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/launch
+copying launch/kalmanFilter.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/launch
+copying launch/navigation_stack.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/launch
+copying launch/navigation.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/launch
+copying launch/slam.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/launch
+copying launch/rviz.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/launch
+creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/resource
+copying resource/nav2_params.yaml -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/resource
+copying resource/dual_ekf_params.yaml -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/resource
+copying resource/bringup.rviz -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/resource
+copying resource/rviz_navigation.rviz -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/resource
+running install_egg_info
+Copying ../../build/racecar_navigation/racecar_navigation.egg-info to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/lib/python3.12/site-packages/racecar_navigation-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_navigation/install.log'

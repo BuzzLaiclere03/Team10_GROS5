@@ -56,13 +56,13 @@ void sensorsCallback(unsigned long dt);
 // Controller
 
 // TODO: VOUS DEVEZ DETERMINEZ DES BONS PARAMETRES SUIVANTS
-const float filter_rc  = 0.1;
-const float vel_kp     = 10.0;
-const float vel_ki     = 0.0;
+const float filter_rc  = 0.08;
+const float vel_kp     = 15.095937;
+const float vel_ki     = 37.254576;
 const float vel_kd     = 0.0;
-const float pos_kp     = 1.0;
-const float pos_kd     = 0.0;
+const float pos_kp     = 20.842928571428573;
 const float pos_ki     = 0.0;
+const float pos_kd     = 11.056766094011515;
 const float pos_ei_sat = 10000.0;
 
 // Loop period
@@ -108,8 +108,10 @@ signed long enc_now = 0;
 signed long enc_old = 0;
 
 float pos_now = 0;
+float pos_old = 0;
 float vel_now = 0;
 float vel_old = 0;
+float pos_error_ddt_old = 0;
 
 float vel_error_int = 0;
 float pos_error_int = 0;
@@ -341,8 +343,8 @@ void ctl(int dt_low)
 
     // TODO: VOUS DEVEZ COMPLETEZ LA DERIVEE FILTRE ICI
     float vel_raw = (enc_now - enc_old) * tick2m / dt_low * 1000;
-    float alpha   = 0;       // TODO
-    float vel_fil = vel_raw; // Filter TODO
+    float alpha   = dt_low/(filter_rc + dt_low);       // TODO
+    float vel_fil = alpha*vel_raw + (1-alpha)*vel_old; // Filter TODO
 
     // Propulsion Controllers
 
@@ -374,13 +376,19 @@ void ctl(int dt_low)
         // Low-level Velocity control
         // Commands received in [m/sec] setpoints
 
-        float vel_ref, vel_error;
-
+        float vel_ref, vel_error, voltage_init;
+        voltage_init = 2;
         // TODO: VOUS DEVEZ COMPLETEZ LE CONTROLLEUR SUIVANT
         vel_ref       = dri_ref;
         vel_error     = vel_ref - vel_fil;
-        vel_error_int = 0;                  // TODO
-        dri_cmd       = vel_kp * vel_error; // proportionnal only
+        vel_error_int += vel_error * (dt_low / 1000);               // TODO
+        dri_cmd       = vel_kp * vel_error + vel_ki * vel_error_int; // proportionnal only
+        
+        /*if (vel_ref > 0) {
+            dri_cmd += voltage_init;
+        } else if (vel_ref < 0) {
+            dri_cmd -= voltage_init;
+        }*/
 
         dri_pwm = cmd2pwm(dri_cmd);
     }
@@ -390,22 +398,34 @@ void ctl(int dt_low)
         // Low-level Position control
         // Commands received in [m] setpoints
 
-        float pos_ref, pos_error, pos_error_ddt;
+        float pos_ref, pos_error, pos_error_old, pos_error_ddt, pos_error_ddt_filtered;
 
         // TODO: VOUS DEVEZ COMPLETEZ LE CONTROLLEUR SUIVANT
         pos_ref       = dri_ref;
-        pos_error     = 0; // TODO
-        pos_error_ddt = 0; // TODO
-        pos_error_int = 0; // TODO
+        pos_error     = pos_ref - pos_now; // TODO
+        
+
+        /*if (dt_low <= 0) {
+            pos_error_ddt = 0;
+        } 
+        else {
+            pos_error_ddt = (pos_error - pos_error_old) / (dt_low / 1000.0);
+            pos_error_old = pos_error;
+            pos_error_ddt_filtered = alpha*pos_error_ddt + (1-alpha)*pos_error_ddt_old;
+            pos_error_ddt_old = pos_error_ddt_filtered;
+        }*/
+
+        
 
         // Anti wind-up
         if (pos_error_int > pos_ei_sat)
         {
-            pos_error_int = pos_ei_sat;
+            pos_error_int = pos_ei_sat; 
         }
 
-        dri_cmd = 0; // TODO
-
+        dri_cmd = pos_kp * pos_error + pos_kd * -1 * vel_fil;//pos_error_ddt_filtered; // TODO
+        
+        
         dri_pwm = cmd2pwm(dri_cmd);
     }
     ///////////////////////////////////////////////////////
@@ -437,6 +457,7 @@ void ctl(int dt_low)
 
     // Update memory variable
     enc_old = enc_now;
+    pos_old = pos_now;
     vel_old = vel_fil;
 }
 
@@ -477,7 +498,11 @@ void setup()
 void loop()
 {
     time_now = millis();
+    //Serial.print("PWM: ");
+    //Serial.println(dri_pwm);
 
+    //Serial.print("velocity: ");
+    //Serial.println(pos_now * tick2m);
     /////////////////////////////////////////////////////////////
     // Watchdog: stop the car if no recent communication from ROS
     //////////////////////////////////////////////////////////////
@@ -555,8 +580,8 @@ void sensorsCallback(unsigned long dt)
 
     // For DEBUG
     sensorsMsg.data[2] = (float)dri_ref; // set point received by arduino
-    // sensorsMsg.data[3] = (float)dri_cmd; // drive set point in volts
-    sensorsMsg.data[3] = (float)Serial.available(); // futile: we SHOULD NOT receive anything if Serial is not available.
+    sensorsMsg.data[3] = (float)dri_cmd; // drive set point in volts
+    //sensorsMsg.data[3] = (float)Serial.available(); // futile: we SHOULD NOT receive anything if Serial is not available.
     sensorsMsg.data[4] = (float)dri_pwm;            // drive set point in pwm
     sensorsMsg.data[5] = (float)enc_now;            // raw encoder counts
     sensorsMsg.data[6] = (float)ser_ref;            // steering angle (don't remove/change, used for GRO830)

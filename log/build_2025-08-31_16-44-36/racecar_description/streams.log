@@ -1,0 +1,42 @@
+[2.361s] Invoking command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/build
+[3.248s] running develop
+[3.901s] Removing /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/lib/python3.12/site-packages/racecar-description.egg-link (link to .)
+[4.087s] Invoked command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/build
+[4.090s] Invoking command in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/racecar_description build --build-base /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/build install --record /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/install.log --single-version-externally-managed install_data --force
+[4.910s] running egg_info
+[4.990s] writing ../../build/racecar_description/racecar_description.egg-info/PKG-INFO
+[4.991s] writing dependency_links to ../../build/racecar_description/racecar_description.egg-info/dependency_links.txt
+[4.992s] writing requirements to ../../build/racecar_description/racecar_description.egg-info/requires.txt
+[4.993s] writing top-level names to ../../build/racecar_description/racecar_description.egg-info/top_level.txt
+[5.037s] reading manifest file '../../build/racecar_description/racecar_description.egg-info/SOURCES.txt'
+[5.041s] writing manifest file '../../build/racecar_description/racecar_description.egg-info/SOURCES.txt'
+[5.041s] running build
+[5.041s] running install
+[5.053s] running install_data
+[5.053s] copying resource/racecar_description -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/ament_index/resource_index/packages
+[5.054s] copying package.xml -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description
+[5.055s] copying urdf/materials.xacro -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/urdf
+[5.055s] copying urdf/racecar.xacro -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/urdf
+[5.056s] copying urdf/macros.xacro -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/urdf
+[5.057s] copying urdf/racecar.gazebo -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/urdf
+[5.058s] copying meshes/right_rear_wheel.dae -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+[5.058s] copying meshes/left_steering_hinge.STL -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+[5.059s] copying meshes/right_front_wheel.STL -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+[5.060s] copying meshes/left_steering_hinge.dae -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+[5.061s] copying meshes/right_steering_hinge.dae -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+[5.062s] copying meshes/chassis.dae -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+[5.062s] copying meshes/chassis.STL -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+[5.063s] copying meshes/hokuyo.dae -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+[5.063s] copying meshes/right_front_wheel.dae -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+[5.064s] copying meshes/left_front_wheel.dae -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+[5.065s] copying meshes/left_front_wheel.STL -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+[5.066s] copying meshes/left_rear_wheel.STL -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+[5.066s] copying meshes/left_rear_wheel.dae -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+[5.067s] copying meshes/right_rear_wheel.STL -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+[5.068s] copying meshes/right_steering_hinge.STL -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+[5.069s] copying config/ros_bridge.yaml -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/config
+[5.069s] running install_egg_info
+[5.188s] Copying ../../build/racecar_description/racecar_description.egg-info to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/lib/python3.12/site-packages/racecar_description-0.0.0-py3.12.egg-info
+[5.194s] running install_scripts
+[5.669s] writing list of installed files to '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/install.log'
+[5.814s] Invoked command in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/racecar_description build --build-base /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/build install --record /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/install.log --single-version-externally-managed install_data --force
