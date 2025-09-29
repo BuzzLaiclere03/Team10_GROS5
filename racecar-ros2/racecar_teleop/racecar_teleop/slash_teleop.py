@@ -20,6 +20,8 @@ class Teleop(Node):
         self.max_volt = self.declare_parameter('max_volt', 8.0).value
         self.maxStAng = self.declare_parameter('max_angle', 40).value
         self.ps4 = self.declare_parameter('ps4', False).value
+        self.wanted_voltage_v1 = self.declare_parameter('wanted_v1', 7.0).value #Added in App2 lab1
+        self.wanted_voltage_v2 = self.declare_parameter('wanted_v2', 7.2).value #Added in App2 lab1
 
         self.cmd2rad   = self.maxStAng*2*3.1416/360
         self.joystickCompatibilityWarned = False
@@ -86,16 +88,18 @@ class Teleop(Node):
             #If button A is active 
             elif(joy_msg.buttons[1]):   
                 # Closed-loop velocity, Closed-loop steering 
-                self.cmd_msg.linear.x  = propulsion_user_input * self.max_vel #[m/s]
+                self.cmd_msg.linear.x  = 3.0 #[m/s]
                 self.cmd_msg.angular.z = steering_user_input # [m]
-                self.cmd_msg.linear.z  = 3.0  # Control mode
+                self.cmd_msg.linear.z  = 0.0 # Control mode
+                #self.get_logger().info("AAAAAA")
                 
             #If button B is active 
             elif(joy_msg.buttons[2]):   
                 # Closed-loop position, Closed-loop steering 
-                self.cmd_msg.linear.x  = propulsion_user_input # [m]
+                self.cmd_msg.linear.x  = 6.0 # [m]
                 self.cmd_msg.angular.z = steering_user_input # [m]
-                self.cmd_msg.linear.z  = 4.0  # Control mode
+                self.cmd_msg.linear.z  = 2.0  # Control mode
+                #self.get_logger().info("BBBBBB")
                 
             #If button x is active 
             elif(joy_msg.buttons[0]):   
