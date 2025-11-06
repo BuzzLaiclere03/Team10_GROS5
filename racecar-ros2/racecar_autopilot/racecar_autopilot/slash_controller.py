@@ -33,8 +33,8 @@ class SlashController(Node):
         # Controller
         self.steering_offset = 0.0  # To adjust according to the vehicle
 
-        self.K_autopilot = [[ 8.48592100e+00,  4.32125145e-17, -8.76181605e-17],
-                        [-1.75194871e-16,  3.16227766e-01,  5.38271920e-01]] # TODO: DESIGN LQR
+        self.K_autopilot = [[ 9.08502717e+00,  4.41336790e-17, -8.40243102e-17],
+ [-1.68008870e-16,  3.16227766e-01,  5.38271920e-01]] # TODO: DESIGN LQR
 
         self.K_parking = [[ 1.00000000e+00, -8.30685902e-05, -1.66137180e-04],
  [ 2.37338828e-06,  9.37499998e-02,  3.00000000e-01]]  # TODO: DESIGN PLACEMENT DE POLES
@@ -174,7 +174,7 @@ class SlashController(Node):
 
         u = np.array([ 0 , 0 ]) # placeholder
         
-        u = np.dot( self.K_autopilot , (r - x) )
+        u = np.dot( self.K_autopilot , np.subtract(r, x) )
         
         return u
 
@@ -185,7 +185,7 @@ class SlashController(Node):
 
         u = np.array([ 0 , 0 ]) # placeholder
         
-        u = np.dot( self.K_parking , (r - x) )
+        u = np.dot( self.K_parking , np.subtract(r, x) )
         
         return u
 

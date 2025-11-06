@@ -100,16 +100,16 @@ class Teleop(Node):
             #If button x is active 
             elif(joy_msg.buttons[0]):   
                 # Closed-loop velocity with fixed 1 m/s ref, Closed-loop steering
-                self.cmd_msg.linear.x  = 2.0 #[m/s]
-                self.cmd_msg.angular.z = 0.0 # [m]
+                #self.cmd_msg.linear.x  = 2.0 #[m/s]
+                #self.cmd_msg.angular.z = 0.0 # [m]
                 self.cmd_msg.linear.z  = 5.0 # Control mode
                 
             #If button y is active 
             elif(joy_msg.buttons[3]):   
                 # Reset Encoder
-                self.cmd_msg.linear.x  = 0.0
-                self.cmd_msg.angular.z = 0.0
-                self.cmd_msg.linear.z  = 6.0  # Control mode
+                #self.cmd_msg.linear.x  = 0.0
+                #self.cmd_msg.angular.z = 0.0
+                self.cmd_msg.linear.z  = 4.0  # Control mode
                 
             #If left trigger is active 
             elif (joy_msg.buttons[6]):

@@ -377,18 +377,18 @@ void ctl(int dt_low)
         // Commands received in [m/sec] setpoints
 
         float vel_ref, vel_error, voltage_init;
-        voltage_init = 2;
+        voltage_init = 6;
         // TODO: VOUS DEVEZ COMPLETEZ LE CONTROLLEUR SUIVANT
         vel_ref       = dri_ref;
         vel_error     = vel_ref - vel_fil;
         vel_error_int += vel_error * (dt_low / 1000);               // TODO
         dri_cmd       = vel_kp * vel_error + vel_ki * vel_error_int; // proportionnal only
         
-        /*if (vel_ref > 0) {
+        if (vel_ref > 0) {
             dri_cmd += voltage_init;
         } else if (vel_ref < 0) {
             dri_cmd -= voltage_init;
-        }*/
+        }
 
         dri_pwm = cmd2pwm(dri_cmd);
     }
