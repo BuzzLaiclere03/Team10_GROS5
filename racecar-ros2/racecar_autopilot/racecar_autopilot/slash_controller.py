@@ -33,11 +33,11 @@ class SlashController(Node):
         # Controller
         self.steering_offset = 0.0  # To adjust according to the vehicle
 
-        self.K_autopilot = [[ 9.08502717e+00,  4.41336790e-17, -8.40243102e-17],
- [-1.68008870e-16,  3.16227766e-01,  5.38271920e-01]] # TODO: DESIGN LQR
+        self.K_autopilot = [[ 9.08502717e+00,  4.41336790e-17, 8.40243102e-17],
+ [-1.68008870e-16,  3.16227766e-01,  -5.38271920e-01]] # TODO: DESIGN LQR
 
-        self.K_parking = [[ 1.00000000e+00, -8.30685902e-05, -1.66137180e-04],
- [ 2.37338828e-06,  9.37499998e-02,  3.00000000e-01]]  # TODO: DESIGN PLACEMENT DE POLES
+        self.K_parking = [[ 1.00000000e+00, -8.30685902e-05, 1.66137180e-04],
+ [ 2.37338828e-06,  9.37499998e-02,  -3.00000000e-01]]  # TODO: DESIGN PLACEMENT DE POLES
 
         # Memory
 
@@ -134,9 +134,15 @@ class SlashController(Node):
                 # r = [ ?,? ,.... ]
                 # u = [ servo_cmd , prop_cmd ]
                 
-                x = [self.position, self.laser_y, self.laser_theta]
-                r = [1, 0, 0] # valeurs voulue (desired) ici on voudrais position x = 1m avec y = 0 et theta = 0
                 
+                x = [self.position, self.laser_y, self.laser_theta]
+                r = [3, 0, 0] # valeurs voulue (desired) ici on voudrais position x = 1m avec y = 0 et theta = 0
+                
+                #Avec 4 variables d'etats
+                #x = [self.position, self.laser_y, self.laser_theta, self.velocity]
+                #r = [3, 0, 0, 0] 
+
+
                 u = self.controller2( x , r )
 
                 self.steering_cmd   = u[1] + self.steering_offset
@@ -174,7 +180,7 @@ class SlashController(Node):
 
         u = np.array([ 0 , 0 ]) # placeholder
         
-        u = np.dot( self.K_autopilot , np.subtract(r, x) )
+        u = self.K_autopilot @ np.subtract(r, x) 
         
         return u
 
@@ -184,8 +190,15 @@ class SlashController(Node):
         # Control Law TODO
 
         u = np.array([ 0 , 0 ]) # placeholder
-        
-        u = np.dot( self.K_parking , np.subtract(r, x) )
+        #adding 4th state variable
+        #K_v = [[ 1.00000003e+00, -2.86713771e-03, 5.73121361e-03, -2.05619749e-07],
+ #[ 8.32382881e-05,  9.37497583e-02,  -2.99999999e-01,  5.75387196e-06]]
+        #LQR
+        K_v = [[ 2.23606798e+00, -2.04112020e-17,  -5.98580144e-18],
+ [ 1.99526715e-18,  5.00000000e-01,  -8.94427191e-01]]
+
+        #u = self.K_parking @ np.subtract(r, x)
+        u = K_v @ np.subtract(r, x)
         
         return u
 

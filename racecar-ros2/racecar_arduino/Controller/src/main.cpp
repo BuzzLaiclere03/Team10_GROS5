@@ -384,10 +384,14 @@ void ctl(int dt_low)
         vel_error_int += vel_error * (dt_low / 1000);               // TODO
         dri_cmd       = vel_kp * vel_error + vel_ki * vel_error_int; // proportionnal only
         
-        if (vel_ref > 0) {
+        static float tol = 0.5;
+
+        if (vel_ref > tol) {
             dri_cmd += voltage_init;
-        } else if (vel_ref < 0) {
+        } else if (vel_ref < -1*tol) {
             dri_cmd -= voltage_init;
+        } else {
+            dri_cmd = 0;
         }
 
         dri_pwm = cmd2pwm(dri_cmd);
