@@ -1,5 +1,10 @@
     #!/usr/bin/env python3
 
+# Band-Aid to be able to use `ros2 launch`
+import sys
+if "/usr/local/lib/python3.12/dist-packages" in sys.path:
+    sys.path.remove("/usr/local/lib/python3.12/dist-packages")
+
 import rclpy
 from rclpy.node import Node
 from rclpy.qos import QoSProfile
@@ -20,6 +25,8 @@ from tf2_ros import Buffer, TransformListener
 import tf_transformations
 from visualization_msgs.msg import Marker
 from racecar_behaviors.libbehaviors import *
+from geometry_msgs.msg import Point
+
 
 class BlobDetector(Node):
     def __init__(self):
@@ -41,7 +48,7 @@ class BlobDetector(Node):
         # Modify the parameters as needed
 
         params.thresholdStep = 10
-        params.minThreshold = 50
+        params.minThreshold = 75
         params.maxThreshold = 220
         params.minRepeatability = 2
         params.minDistBetweenBlobs = 10
@@ -52,7 +59,7 @@ class BlobDetector(Node):
         
         # Set Area filtering parameters 
         params.filterByArea = True
-        params.minArea = 1500
+        params.minArea = 100 #1500
         params.maxArea = 5000000000
           
         # Set Circularity filtering parameters 
@@ -76,6 +83,9 @@ class BlobDetector(Node):
         qos = QoSProfile(depth=10)
         self.image_pub = self.create_publisher(Image, 'image_detections', qos)
         self.object_pub = self.create_publisher(String, 'object_detected', qos)
+        # NEW CODE /////////////////////////////////
+        self.balloon_dst_from_car = self.create_publisher(Point, 'balloon_dst_from_car', 1)
+
 
         self.image_sub = message_filters.Subscriber(self, Image, 'image')
         self.depth_sub = message_filters.Subscriber(self, Image, 'depth')
@@ -161,6 +171,7 @@ class BlobDetector(Node):
 
         # We process only the closest object detected
         if closestObject[2] > 0:
+
             # assuming the object is circular, use center of the object as position
             transObj = (closestObject[0], closestObject[1], closestObject[2])
             rotObj = tf_transformations.quaternion_from_euler(0, np.pi/2, -np.pi/2)
@@ -179,18 +190,6 @@ class BlobDetector(Node):
             msg.data = self.object_frame_id
             self.object_pub.publish(msg) # signal that an object has been detected
             
-            # Compute object pose in map frame
-            try:
-                self.tf_buffer.lookup_transform(self.map_frame_id, image.header.frame_id, image.header.stamp, Duration(nanoseconds=500000000)) # 500 ms
-                t = self.tf_buffer.lookup_transform(self.map_frame_id, image.header.frame_id, image.header.stamp)
-                transMap = [t.transform.translation.x, t.transform.translation.y, t.transform.translation.z]
-                rotMap = [t.transform.rotation.x, t.transform.rotation.y, t.transform.rotation.z, t.transform.rotation.w]
-            except (tf2_ros.LookupException, tf2_ros.ConnectivityException, tf2_ros.ExtrapolationException, tf2_ros.TransformException) as e:
-                self.get_logger().info(str(e))
-                return
-            
-            (transMap, rotMap) = multiply_transforms(transMap, rotMap, transObj, rotObj)
-            
             # Compute object pose in base frame
             try:
                 t = self.tf_buffer.lookup_transform(self.frame_id, image.header.frame_id, image.header.stamp, Duration(nanoseconds=500000000)) # 500 ms
@@ -204,8 +203,29 @@ class BlobDetector(Node):
             distance = np.linalg.norm(transBase[0:2])
             angle = np.arcsin(transBase[1]/transBase[0]) 
 
-            self.get_logger().info(f"Object detected at [{transMap[0]},{transMap[1]}] in {self.map_frame_id} frame! Distance and direction from robot: {distance}m {angle*180.0/np.pi}deg.")
 
+            self.get_logger().info(f"Object detected at distance and direction from robot: {distance}m {angle*180.0/np.pi}deg.")
+
+            # NEW CODE //////////////////////////////////
+            point_msg = Point()
+            point_msg.x = distance
+            point_msg.y = angle
+            point_msg.z = -1.0
+            self.balloon_dst_from_car.publish(point_msg)
+
+            # Compute object pose in map frame
+            try:
+                self.tf_buffer.lookup_transform(self.map_frame_id, image.header.frame_id, image.header.stamp, Duration(nanoseconds=500000000)) # 500 ms
+                t = self.tf_buffer.lookup_transform(self.map_frame_id, image.header.frame_id, image.header.stamp)
+                transMap = [t.transform.translation.x, t.transform.translation.y, t.transform.translation.z]
+                rotMap = [t.transform.rotation.x, t.transform.rotation.y, t.transform.rotation.z, t.transform.rotation.w]
+            except (tf2_ros.LookupException, tf2_ros.ConnectivityException, tf2_ros.ExtrapolationException, tf2_ros.TransformException) as e:
+                self.get_logger().info(str(e))
+                return
+            (transMap, rotMap) = multiply_transforms(transMap, rotMap, transObj, rotObj)
+
+            self.get_logger().info(f"Object detected at [{transMap[0]},{transMap[1]}] in {self.map_frame_id} frame!")
+            
         # debugging topic
         cv_image = cv2.bitwise_and(cv_image, cv_image, mask=mask)
         try:
@@ -213,7 +233,7 @@ class BlobDetector(Node):
         except CvBridgeError as e:
             self.get_logger().info(str(e))
 
-
+            
 def main(args=None):
     rclpy.init(args=args)
     blobDetector = BlobDetector()
