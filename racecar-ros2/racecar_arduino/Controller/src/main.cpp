@@ -56,6 +56,7 @@ void sensorsCallback(unsigned long dt);
 // Controller
 
 // TODO: VOUS DEVEZ DETERMINEZ DES BONS PARAMETRES SUIVANTS
+<<<<<<< HEAD
 const float filter_rc  = 0.01;
 const float vel_kp     = 14.748560;
 const float vel_ki     = 60.45;
@@ -63,6 +64,15 @@ const float vel_kd     = 0.0;
 const float pos_kp     = 23.5872;
 const float pos_ki     = 0.0;
 const float pos_kd     = 9.94953264;
+=======
+const float filter_rc  = 0.08;
+const float vel_kp     = 15.095937;
+const float vel_ki     = 37.254576;
+const float vel_kd     = 0.0;
+const float pos_kp     = 20.842928571428573;
+const float pos_ki     = 0.0;
+const float pos_kd     = 11.056766094011515;
+>>>>>>> 44face7cce99bbb14349d4a4030411dbd9d33a2f
 const float pos_ei_sat = 10000.0;
 
 // Loop period
@@ -376,14 +386,27 @@ void ctl(int dt_low)
         // Low-level Velocity control
         // Commands received in [m/sec] setpoints
 
-        float vel_ref, vel_error;
-
+        float vel_ref, vel_error, voltage_init;
+        voltage_init = 6;
         // TODO: VOUS DEVEZ COMPLETEZ LE CONTROLLEUR SUIVANT
         vel_ref       = dri_ref;
         vel_error     = vel_ref - vel_fil;
         vel_error_int += vel_error * (dt_low / 1000);               // TODO
         dri_cmd       = vel_kp * vel_error + vel_ki * vel_error_int; // proportionnal only
         
+<<<<<<< HEAD
+=======
+        static float tol = 0.5;
+
+        if (vel_ref > tol) {
+            dri_cmd += voltage_init;
+        } else if (vel_ref < -1*tol) {
+            dri_cmd -= voltage_init;
+        } else {
+            dri_cmd = 0;
+        }
+
+>>>>>>> 44face7cce99bbb14349d4a4030411dbd9d33a2f
         dri_pwm = cmd2pwm(dri_cmd);
     }
     ///////////////////////////////////////////////////////
@@ -393,10 +416,18 @@ void ctl(int dt_low)
         // Commands received in [m] setpoints
 
         float pos_ref, pos_error, pos_error_old, pos_error_ddt, pos_error_ddt_filtered;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 44face7cce99bbb14349d4a4030411dbd9d33a2f
         // TODO: VOUS DEVEZ COMPLETEZ LE CONTROLLEUR SUIVANT
         pos_ref       = dri_ref;
         pos_error     = pos_ref - pos_now; // TODO
         
+<<<<<<< HEAD
+=======
+
+>>>>>>> 44face7cce99bbb14349d4a4030411dbd9d33a2f
         /*if (dt_low <= 0) {
             pos_error_ddt = 0;
         } 
@@ -416,6 +447,11 @@ void ctl(int dt_low)
         }
 
         dri_cmd = pos_kp * pos_error + pos_kd * -1 * vel_fil;//pos_error_ddt_filtered; // TODO
+<<<<<<< HEAD
+=======
+        
+        
+>>>>>>> 44face7cce99bbb14349d4a4030411dbd9d33a2f
         dri_pwm = cmd2pwm(dri_cmd);
     }
     ///////////////////////////////////////////////////////
@@ -488,7 +524,11 @@ void setup()
 void loop()
 {
     time_now = millis();
+    //Serial.print("PWM: ");
+    //Serial.println(dri_pwm);
 
+    //Serial.print("velocity: ");
+    //Serial.println(pos_now * tick2m);
     /////////////////////////////////////////////////////////////
     // Watchdog: stop the car if no recent communication from ROS
     //////////////////////////////////////////////////////////////

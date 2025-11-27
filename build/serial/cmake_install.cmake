@@ -43,6 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+<<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/serial/environment" TYPE FILE FILES "/opt/ros/jazzy/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh")
 endif()
 
@@ -126,6 +127,9 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/serial" TYPE FILE FILES "/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_serial/libserial/package.xml")
+=======
+  include("/home/racecar/ros2_ws/src/Team10_GROS5/build/serial/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+>>>>>>> 5f8b865 (bag recording)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

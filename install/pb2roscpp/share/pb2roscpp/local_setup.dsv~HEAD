@@ -1,0 +1,2 @@
+source;share/pb2roscpp/environment/ament_prefix_path.sh
+source;share/pb2roscpp/environment/path.sh

@@ -1,0 +1,20 @@
+[3.585s] Invoking command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/build --no-deps symlink_data --force
+[4.514s] running develop
+[5.089s] running egg_info
+[5.151s] writing racecar_autopilot.egg-info/PKG-INFO
+[5.157s] writing dependency_links to racecar_autopilot.egg-info/dependency_links.txt
+[5.178s] writing entry points to racecar_autopilot.egg-info/entry_points.txt
+[5.193s] writing requirements to racecar_autopilot.egg-info/requires.txt
+[5.195s] writing top-level names to racecar_autopilot.egg-info/top_level.txt
+[5.345s] reading manifest file 'racecar_autopilot.egg-info/SOURCES.txt'
+[5.347s] writing manifest file 'racecar_autopilot.egg-info/SOURCES.txt'
+[5.495s] running build_ext
+[5.495s] Creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/python3.12/site-packages/racecar-autopilot.egg-link (link to .)
+[5.506s] Installing slash_controller script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/racecar_autopilot
+[5.512s] Installing wall_estimator script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/racecar_autopilot
+[5.518s] 
+[5.519s] Installed /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot
+[5.520s] running symlink_data
+[5.520s] symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/resource/racecar_autopilot -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/share/ament_index/resource_index/packages
+[5.521s] symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/package.xml -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/share/racecar_autopilot
+[5.803s] Invoked command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/build --no-deps symlink_data --force

@@ -43,6 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+<<<<<<< HEAD
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pb2roscpp/pb2roscpp" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/pb2roscpp/pb2roscpp")
     file(RPATH_CHECK
@@ -123,6 +124,9 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pb2roscpp" TYPE FILE FILES "/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_serial/pb2roscpp/package.xml")
+=======
+  include("/home/racecar/ros2_ws/src/Team10_GROS5/build/pb2roscpp/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+>>>>>>> 5f8b865 (bag recording)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

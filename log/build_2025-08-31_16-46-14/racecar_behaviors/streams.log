@@ -1,0 +1,30 @@
+[3.519s] Invoking command in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_behaviors': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/racecar_behaviors build --build-base /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/build install --record /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/install.log --single-version-externally-managed install_data
+[4.372s] running egg_info
+[4.430s] writing ../../build/racecar_behaviors/racecar_behaviors.egg-info/PKG-INFO
+[4.432s] writing dependency_links to ../../build/racecar_behaviors/racecar_behaviors.egg-info/dependency_links.txt
+[4.438s] writing entry points to ../../build/racecar_behaviors/racecar_behaviors.egg-info/entry_points.txt
+[4.439s] writing requirements to ../../build/racecar_behaviors/racecar_behaviors.egg-info/requires.txt
+[4.439s] writing top-level names to ../../build/racecar_behaviors/racecar_behaviors.egg-info/top_level.txt
+[4.655s] reading manifest file '../../build/racecar_behaviors/racecar_behaviors.egg-info/SOURCES.txt'
+[4.657s] adding license file 'LICENSE'
+[4.657s] writing manifest file '../../build/racecar_behaviors/racecar_behaviors.egg-info/SOURCES.txt'
+[4.657s] running build
+[4.658s] running build_py
+[4.659s] running install
+[4.671s] running install_lib
+[4.742s] running install_data
+[4.744s] running install_egg_info
+[4.814s] removing '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/python3.12/site-packages/racecar_behaviors-0.0.0-py3.12.egg-info' (and everything under it)
+[4.817s] Copying ../../build/racecar_behaviors/racecar_behaviors.egg-info to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/python3.12/site-packages/racecar_behaviors-0.0.0-py3.12.egg-info
+[4.817s] running install_scripts
+[5.211s] Installing blob_detector script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors
+[5.212s] Installing goal_planner script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors
+[5.214s] Installing labo_brushfire script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors
+[5.216s] Installing laserscan_to_pointcloud script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors
+[5.218s] Installing libbehaviors script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors
+[5.219s] Installing obstacle_detector script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors
+[5.223s] Installing path_following script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors
+[5.224s] Installing u_turn script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors
+[5.225s] Installing u_turn_goal script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors
+[5.229s] writing list of installed files to '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/install.log'
+[5.372s] Invoked command in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_behaviors' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/racecar_behaviors build --build-base /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/build install --record /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/install.log --single-version-externally-managed install_data

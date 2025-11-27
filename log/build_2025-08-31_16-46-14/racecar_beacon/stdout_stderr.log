@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/racecar_beacon/racecar_beacon.egg-info/PKG-INFO
+writing dependency_links to ../../build/racecar_beacon/racecar_beacon.egg-info/dependency_links.txt
+writing entry points to ../../build/racecar_beacon/racecar_beacon.egg-info/entry_points.txt
+writing requirements to ../../build/racecar_beacon/racecar_beacon.egg-info/requires.txt
+writing top-level names to ../../build/racecar_beacon/racecar_beacon.egg-info/top_level.txt
+reading manifest file '../../build/racecar_beacon/racecar_beacon.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/racecar_beacon/racecar_beacon.egg-info/SOURCES.txt'
+running build
+running build_py
+copying racecar_beacon/ros_monitor.py -> /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build/lib/racecar_beacon
+running install
+running install_lib
+copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build/lib/racecar_beacon/ros_monitor.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon
+byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon/ros_monitor.py to ros_monitor.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon-1.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/racecar_beacon/racecar_beacon.egg-info to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages/racecar_beacon-1.0.0-py3.12.egg-info
+running install_scripts
+Installing lab_chat_client script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/racecar_beacon
+Installing lab_chat_server script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/racecar_beacon
+Installing lab_poll_pos script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/racecar_beacon
+Installing remote_client script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/racecar_beacon
+Installing ros_monitor script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/racecar_beacon
+Installing vehicle_tracker script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/racecar_beacon
+writing list of installed files to '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/install.log'

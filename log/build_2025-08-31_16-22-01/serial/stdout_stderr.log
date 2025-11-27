@@ -1,0 +1,30 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/racecar/ros2_ws/src/Team10_GROS5/build/serial
+[100%] Built target serial
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/environment/library_path.sh
+-- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/environment/library_path.dsv
+-- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/lib/libserial.a
+-- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/include/serial/serial.h
+-- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/include/serial/v8stdint.h
+-- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+-- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+-- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/environment/ament_prefix_path.sh
+-- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/environment/ament_prefix_path.dsv
+-- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/environment/path.sh
+-- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/environment/path.dsv
+-- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/local_setup.bash
+-- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/local_setup.sh
+-- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/local_setup.zsh
+-- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/local_setup.dsv
+-- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/package.dsv
+-- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/ament_index/resource_index/packages/serial
+-- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/cmake/serialConfig.cmake
+-- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/cmake/serialConfig-version.cmake
+-- Symlinking: /home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/package.xml

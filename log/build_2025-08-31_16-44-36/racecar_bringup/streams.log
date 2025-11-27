@@ -1,0 +1,45 @@
+[3.360s] Invoking command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_bringup/build
+[4.175s] running develop
+[4.758s] Removing /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/lib/python3.12/site-packages/racecar-bringup.egg-link (link to .)
+[4.946s] Invoked command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_bringup/build
+[4.948s] Invoking command in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/racecar_bringup build --build-base /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_bringup/build install --record /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_bringup/install.log --single-version-externally-managed install_data --force
+[5.668s] running egg_info
+[5.739s] writing ../../build/racecar_bringup/racecar_bringup.egg-info/PKG-INFO
+[5.739s] writing dependency_links to ../../build/racecar_bringup/racecar_bringup.egg-info/dependency_links.txt
+[5.745s] writing entry points to ../../build/racecar_bringup/racecar_bringup.egg-info/entry_points.txt
+[5.746s] writing requirements to ../../build/racecar_bringup/racecar_bringup.egg-info/requires.txt
+[5.748s] writing top-level names to ../../build/racecar_bringup/racecar_bringup.egg-info/top_level.txt
+[5.828s] reading manifest file '../../build/racecar_bringup/racecar_bringup.egg-info/SOURCES.txt'
+[5.832s] writing manifest file '../../build/racecar_bringup/racecar_bringup.egg-info/SOURCES.txt'
+[5.833s] running build
+[5.834s] running build_py
+[5.839s] running install
+[5.861s] running install_lib
+[5.933s] creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/lib/python3.12/site-packages/racecar_bringup
+[5.934s] copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_bringup/build/lib/racecar_bringup/cmd_vel_arbitration.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/lib/python3.12/site-packages/racecar_bringup
+[5.934s] copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_bringup/build/lib/racecar_bringup/test.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/lib/python3.12/site-packages/racecar_bringup
+[5.936s] copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_bringup/build/lib/racecar_bringup/arduino_sensors.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/lib/python3.12/site-packages/racecar_bringup
+[5.937s] copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_bringup/build/lib/racecar_bringup/__init__.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/lib/python3.12/site-packages/racecar_bringup
+[5.940s] byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/lib/python3.12/site-packages/racecar_bringup/cmd_vel_arbitration.py to cmd_vel_arbitration.cpython-312.pyc
+[5.941s] byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/lib/python3.12/site-packages/racecar_bringup/test.py to test.cpython-312.pyc
+[5.943s] byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/lib/python3.12/site-packages/racecar_bringup/arduino_sensors.py to arduino_sensors.cpython-312.pyc
+[5.952s] byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/lib/python3.12/site-packages/racecar_bringup/__init__.py to __init__.cpython-312.pyc
+[5.954s] running install_data
+[5.958s] copying resource/racecar_bringup -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/share/ament_index/resource_index/packages
+[5.958s] copying package.xml -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/share/racecar_bringup
+[5.959s] copying launch/GRO520.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/share/racecar_bringup/launch
+[5.959s] copying launch/GRO830.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/share/racecar_bringup/launch
+[5.960s] copying launch/teleop.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/share/racecar_bringup/launch
+[5.960s] copying launch/GRO525.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/share/racecar_bringup/launch
+[5.961s] copying launch/GRO501_P2.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/share/racecar_bringup/launch
+[5.962s] copying launch/GRO501_P1.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/share/racecar_bringup/launch
+[5.963s] copying launch/bringup.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/share/racecar_bringup/launch
+[5.966s] copying launch/rviz.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/share/racecar_bringup/launch
+[5.967s] running install_egg_info
+[6.039s] Copying ../../build/racecar_bringup/racecar_bringup.egg-info to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/lib/python3.12/site-packages/racecar_bringup-0.0.0-py3.12.egg-info
+[6.041s] running install_scripts
+[6.422s] Installing arduino_sensors script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/lib/racecar_bringup
+[6.422s] Installing cmd_vel_arbitration script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/lib/racecar_bringup
+[6.426s] Installing test script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/lib/racecar_bringup
+[6.426s] writing list of installed files to '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_bringup/install.log'
+[7.082s] Invoked command in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/racecar_bringup build --build-base /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_bringup/build install --record /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_bringup/install.log --single-version-externally-managed install_data --force

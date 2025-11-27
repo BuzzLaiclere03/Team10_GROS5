@@ -1,0 +1,885 @@
+[0.157s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.158s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffa1c99df0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa1e86060>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa1e86060>>, mixin_verb=('build',))
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.217s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/racecar/ros2_ws/src/Team10_GROS5'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2) by extension 'ros'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2) by extensions ['cmake', 'python']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2) by extension 'cmake'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2) by extension 'python'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2) by extensions ['python_setup_py']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2) by extension 'python_setup_py'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/doc) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/doc) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/doc) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/doc) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/doc) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/doc) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/doc) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/doc) by extension 'ros'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/doc) by extensions ['cmake', 'python']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/doc) by extension 'cmake'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/doc) by extension 'python'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/doc) by extensions ['python_setup_py']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/doc) by extension 'python_setup_py'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/images) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/images) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/images) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/images) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/images) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/images) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/images) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/images) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/images) by extension 'ros'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/images) by extensions ['cmake', 'python']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/images) by extension 'cmake'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/images) by extension 'python'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/images) by extensions ['python_setup_py']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/images) by extension 'python_setup_py'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino) by extension 'ros'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino) by extensions ['cmake', 'python']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino) by extension 'cmake'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino) by extension 'python'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino) by extensions ['python_setup_py']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino) by extension 'python_setup_py'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller) by extension 'ros'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller) by extensions ['cmake', 'python']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller) by extension 'cmake'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller) by extension 'python'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller) by extensions ['python_setup_py']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller) by extension 'python_setup_py'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller/include) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller/include) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller/include) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller/include) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller/include) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller/include) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller/include) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller/include) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller/include) by extension 'ros'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller/include) by extensions ['cmake', 'python']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller/include) by extension 'cmake'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller/include) by extension 'python'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller/include) by extensions ['python_setup_py']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller/include) by extension 'python_setup_py'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller/src) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller/src) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller/src) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller/src) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller/src) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller/src) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller/src) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller/src) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller/src) by extension 'ros'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller/src) by extensions ['cmake', 'python']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller/src) by extension 'cmake'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller/src) by extension 'python'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller/src) by extensions ['python_setup_py']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_arduino/Controller/src) by extension 'python_setup_py'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_autopilot) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_autopilot) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_autopilot) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_autopilot) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_autopilot) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_autopilot) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_autopilot) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_autopilot) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_autopilot) by extension 'ros'
+[0.267s] DEBUG:colcon.colcon_core.package_identification:Package 'racecar-ros2/racecar_autopilot' with type 'ros.ament_python' and name 'racecar_autopilot'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_beacon) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_beacon) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_beacon) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_beacon) by extensions ['colcon_pkg']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_beacon) by extension 'colcon_pkg'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_beacon) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_beacon) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_beacon) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_beacon) by extension 'ros'
+[0.268s] DEBUG:colcon.colcon_core.package_identification:Package 'racecar-ros2/racecar_beacon' with type 'ros.ament_python' and name 'racecar_beacon'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_behaviors) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_behaviors) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_behaviors) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_behaviors) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_behaviors) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_behaviors) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_behaviors) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_behaviors) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_behaviors) by extension 'ros'
+[0.269s] DEBUG:colcon.colcon_core.package_identification:Package 'racecar-ros2/racecar_behaviors' with type 'ros.ament_python' and name 'racecar_behaviors'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_bringup) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_bringup) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_bringup) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_bringup) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_bringup) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_bringup) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_bringup) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_bringup) by extension 'ros'
+[0.271s] DEBUG:colcon.colcon_core.package_identification:Package 'racecar-ros2/racecar_bringup' with type 'ros.ament_python' and name 'racecar_bringup'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_description) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_description) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_description) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_description) by extensions ['colcon_pkg']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_description) by extension 'colcon_pkg'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_description) by extensions ['colcon_meta']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_description) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_description) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_description) by extension 'ros'
+[0.272s] DEBUG:colcon.colcon_core.package_identification:Package 'racecar-ros2/racecar_description' with type 'ros.ament_python' and name 'racecar_description'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_gazebo) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_gazebo) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_gazebo) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_gazebo) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_gazebo) by extensions ['colcon_meta']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_gazebo) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_gazebo) by extensions ['ros']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_gazebo) by extension 'ros'
+[0.273s] DEBUG:colcon.colcon_core.package_identification:Package 'racecar-ros2/racecar_gazebo' with type 'ros.ament_python' and name 'racecar_gazebo'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_navigation) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_navigation) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_navigation) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_navigation) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_navigation) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_navigation) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_navigation) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_navigation) by extension 'ros'
+[0.274s] DEBUG:colcon.colcon_core.package_identification:Package 'racecar-ros2/racecar_navigation' with type 'ros.ament_python' and name 'racecar_navigation'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_serial) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_serial) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_serial) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_serial) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_serial) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_serial) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_serial) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_serial) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_serial) by extension 'ros'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_serial) by extensions ['cmake', 'python']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_serial) by extension 'cmake'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_serial) by extension 'python'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_serial) by extensions ['python_setup_py']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_serial) by extension 'python_setup_py'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_serial/libserial) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_serial/libserial) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_serial/libserial) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_serial/libserial) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_serial/libserial) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_serial/libserial) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_serial/libserial) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_serial/libserial) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_serial/libserial) by extension 'ros'
+[0.276s] DEBUG:colcon.colcon_core.package_identification:Package 'racecar-ros2/racecar_serial/libserial' with type 'ros.ament_cmake' and name 'serial'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_serial/pb2roscpp) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_serial/pb2roscpp) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_serial/pb2roscpp) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_serial/pb2roscpp) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_serial/pb2roscpp) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_serial/pb2roscpp) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_serial/pb2roscpp) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_serial/pb2roscpp) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_serial/pb2roscpp) by extension 'ros'
+[0.277s] DEBUG:colcon.colcon_core.package_identification:Package 'racecar-ros2/racecar_serial/pb2roscpp' with type 'ros.ament_cmake' and name 'pb2roscpp'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_teleop) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_teleop) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_teleop) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_teleop) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_teleop) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_teleop) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_teleop) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_teleop) by extension 'ros'
+[0.278s] DEBUG:colcon.colcon_core.package_identification:Package 'racecar-ros2/racecar_teleop' with type 'ros.ament_python' and name 'racecar_teleop'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface) by extension 'ros'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface) by extensions ['cmake', 'python']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface) by extension 'cmake'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface) by extension 'python'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface) by extensions ['python_setup_py']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface) by extension 'python_setup_py'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface/css) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface/css) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface/css) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface/css) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface/css) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface/css) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface/css) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface/css) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface/css) by extension 'ros'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface/css) by extensions ['cmake', 'python']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface/css) by extension 'cmake'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface/css) by extension 'python'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface/css) by extensions ['python_setup_py']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface/css) by extension 'python_setup_py'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface/js) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface/js) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface/js) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface/js) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface/js) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface/js) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface/js) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface/js) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface/js) by extension 'ros'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface/js) by extensions ['cmake', 'python']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface/js) by extension 'cmake'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface/js) by extension 'python'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface/js) by extensions ['python_setup_py']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(racecar-ros2/racecar_web_interface/js) by extension 'python_setup_py'
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'racecar_autopilot' build argument 'cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'racecar_autopilot' build argument 'cmake_target' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'racecar_autopilot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'racecar_autopilot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'racecar_autopilot' build argument 'cmake_clean_first' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'racecar_autopilot' build argument 'cmake_force_configure' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'racecar_autopilot' build argument 'ament_cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'racecar_autopilot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'racecar_autopilot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.309s] DEBUG:colcon.colcon_core.verb:Building package 'racecar_autopilot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot', 'merge_install': False, 'path': '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_autopilot', 'symlink_install': True, 'test_result_base': None}
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'racecar_beacon' build argument 'cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'racecar_beacon' build argument 'cmake_target' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'racecar_beacon' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'racecar_beacon' build argument 'cmake_clean_cache' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'racecar_beacon' build argument 'cmake_clean_first' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'racecar_beacon' build argument 'cmake_force_configure' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'racecar_beacon' build argument 'ament_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'racecar_beacon' build argument 'catkin_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'racecar_beacon' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.310s] DEBUG:colcon.colcon_core.verb:Building package 'racecar_beacon' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon', 'merge_install': False, 'path': '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_beacon', 'symlink_install': True, 'test_result_base': None}
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'racecar_behaviors' build argument 'cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'racecar_behaviors' build argument 'cmake_target' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'racecar_behaviors' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'racecar_behaviors' build argument 'cmake_clean_cache' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'racecar_behaviors' build argument 'cmake_clean_first' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'racecar_behaviors' build argument 'cmake_force_configure' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'racecar_behaviors' build argument 'ament_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'racecar_behaviors' build argument 'catkin_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'racecar_behaviors' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.310s] DEBUG:colcon.colcon_core.verb:Building package 'racecar_behaviors' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors', 'merge_install': False, 'path': '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_behaviors', 'symlink_install': True, 'test_result_base': None}
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'racecar_bringup' build argument 'cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'racecar_bringup' build argument 'cmake_target' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'racecar_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'racecar_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'racecar_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'racecar_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'racecar_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'racecar_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'racecar_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.311s] DEBUG:colcon.colcon_core.verb:Building package 'racecar_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup', 'merge_install': False, 'path': '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'racecar_description' build argument 'cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'racecar_description' build argument 'cmake_target' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'racecar_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'racecar_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'racecar_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'racecar_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'racecar_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'racecar_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.311s] Level 5:colcon.colcon_core.verb:set package 'racecar_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.311s] DEBUG:colcon.colcon_core.verb:Building package 'racecar_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description', 'merge_install': False, 'path': '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_description', 'symlink_install': True, 'test_result_base': None}
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'racecar_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'racecar_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'racecar_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'racecar_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'racecar_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'racecar_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'racecar_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'racecar_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'racecar_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.312s] DEBUG:colcon.colcon_core.verb:Building package 'racecar_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo', 'merge_install': False, 'path': '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_gazebo', 'symlink_install': True, 'test_result_base': None}
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'racecar_teleop' build argument 'cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'racecar_teleop' build argument 'cmake_target' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'racecar_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'racecar_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'racecar_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'racecar_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'racecar_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'racecar_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.312s] Level 5:colcon.colcon_core.verb:set package 'racecar_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.312s] DEBUG:colcon.colcon_core.verb:Building package 'racecar_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_teleop', 'merge_install': False, 'path': '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_teleop', 'symlink_install': True, 'test_result_base': None}
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.313s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/racecar/ros2_ws/src/Team10_GROS5/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/racecar/ros2_ws/src/Team10_GROS5/install/serial', 'merge_install': False, 'path': '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_serial/libserial', 'symlink_install': True, 'test_result_base': None}
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'pb2roscpp' build argument 'cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'pb2roscpp' build argument 'cmake_target' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'pb2roscpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'pb2roscpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'pb2roscpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'pb2roscpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'pb2roscpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'pb2roscpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.313s] Level 5:colcon.colcon_core.verb:set package 'pb2roscpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.313s] DEBUG:colcon.colcon_core.verb:Building package 'pb2roscpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/racecar/ros2_ws/src/Team10_GROS5/build/pb2roscpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/racecar/ros2_ws/src/Team10_GROS5/install/pb2roscpp', 'merge_install': False, 'path': '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_serial/pb2roscpp', 'symlink_install': True, 'test_result_base': None}
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'racecar_navigation' build argument 'cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'racecar_navigation' build argument 'cmake_target' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'racecar_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'racecar_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'racecar_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'racecar_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'racecar_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'racecar_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.314s] Level 5:colcon.colcon_core.verb:set package 'racecar_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.314s] DEBUG:colcon.colcon_core.verb:Building package 'racecar_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation', 'merge_install': False, 'path': '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_navigation', 'symlink_install': True, 'test_result_base': None}
+[0.314s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.316s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.316s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_behaviors' with build type 'ament_python'
+[0.316s] Level 1:colcon.colcon_core.shell:create_environment_hook('racecar_behaviors', 'ament_prefix_path')
+[0.323s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/share/racecar_behaviors/hook/ament_prefix_path.ps1'
+[0.325s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/share/racecar_behaviors/hook/ament_prefix_path.dsv'
+[0.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/share/racecar_behaviors/hook/ament_prefix_path.sh'
+[0.330s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.330s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.344s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_bringup' with build type 'ament_python'
+[0.345s] Level 1:colcon.colcon_core.shell:create_environment_hook('racecar_bringup', 'ament_prefix_path')
+[0.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/share/racecar_bringup/hook/ament_prefix_path.ps1'
+[0.347s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/share/racecar_bringup/hook/ament_prefix_path.dsv'
+[0.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/share/racecar_bringup/hook/ament_prefix_path.sh'
+[0.349s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.349s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.356s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_serial/libserial' with build type 'ament_cmake'
+[0.357s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_serial/libserial'
+[0.357s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.357s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.365s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_autopilot' with build type 'ament_python'
+[0.366s] Level 1:colcon.colcon_core.shell:create_environment_hook('racecar_autopilot', 'ament_prefix_path')
+[0.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/share/racecar_autopilot/hook/ament_prefix_path.ps1'
+[0.368s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/share/racecar_autopilot/hook/ament_prefix_path.dsv'
+[0.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/share/racecar_autopilot/hook/ament_prefix_path.sh'
+[0.371s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.371s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.788s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_behaviors'
+[0.788s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.789s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.187s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_bringup'
+[1.188s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.188s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/racecar/ros2_ws/install/racecar_teleop:/home/racecar/ros2_ws/install/racecar_navigation:/home/racecar/ros2_ws/install/racecar_gazebo:/home/racecar/ros2_ws/install/racecar_description:/home/racecar/ros2_ws/install/racecar_bringup:/home/racecar/ros2_ws/install/racecar_behaviors:/home/racecar/ros2_ws/install/racecar_beacon:/home/racecar/ros2_ws/install/racecar_autopilot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_serial/libserial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/racecar/ros2_ws/src/Team10_GROS5/install/serial
+[1.760s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_autopilot'
+[1.760s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.760s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/racecar/ros2_ws/install/racecar_teleop:/home/racecar/ros2_ws/install/racecar_navigation:/home/racecar/ros2_ws/install/racecar_gazebo:/home/racecar/ros2_ws/install/racecar_description:/home/racecar/ros2_ws/install/racecar_bringup:/home/racecar/ros2_ws/install/racecar_behaviors:/home/racecar/ros2_ws/install/racecar_beacon:/home/racecar/ros2_ws/install/racecar_autopilot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_serial/libserial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/racecar/ros2_ws/src/Team10_GROS5/install/serial
+[2.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/racecar/ros2_ws/install/racecar_teleop:/home/racecar/ros2_ws/install/racecar_navigation:/home/racecar/ros2_ws/install/racecar_gazebo:/home/racecar/ros2_ws/install/racecar_description:/home/racecar/ros2_ws/install/racecar_bringup:/home/racecar/ros2_ws/install/racecar_behaviors:/home/racecar/ros2_ws/install/racecar_beacon:/home/racecar/ros2_ws/install/racecar_autopilot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/racecar/ros2_ws/src/Team10_GROS5/build/serial -- -j4 -l4
+[2.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/racecar/ros2_ws/install/racecar_teleop:/home/racecar/ros2_ws/install/racecar_navigation:/home/racecar/ros2_ws/install/racecar_gazebo:/home/racecar/ros2_ws/install/racecar_description:/home/racecar/ros2_ws/install/racecar_bringup:/home/racecar/ros2_ws/install/racecar_behaviors:/home/racecar/ros2_ws/install/racecar_beacon:/home/racecar/ros2_ws/install/racecar_autopilot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/racecar/ros2_ws/src/Team10_GROS5/build/serial -- -j4 -l4
+[2.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/racecar/ros2_ws/install/racecar_teleop:/home/racecar/ros2_ws/install/racecar_navigation:/home/racecar/ros2_ws/install/racecar_gazebo:/home/racecar/ros2_ws/install/racecar_description:/home/racecar/ros2_ws/install/racecar_bringup:/home/racecar/ros2_ws/install/racecar_behaviors:/home/racecar/ros2_ws/install/racecar_beacon:/home/racecar/ros2_ws/install/racecar_autopilot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/racecar/ros2_ws/src/Team10_GROS5/build/serial
+[3.317s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[3.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/racecar/ros2_ws/install/racecar_teleop:/home/racecar/ros2_ws/install/racecar_navigation:/home/racecar/ros2_ws/install/racecar_gazebo:/home/racecar/ros2_ws/install/racecar_description:/home/racecar/ros2_ws/install/racecar_bringup:/home/racecar/ros2_ws/install/racecar_behaviors:/home/racecar/ros2_ws/install/racecar_beacon:/home/racecar/ros2_ws/install/racecar_autopilot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/racecar/ros2_ws/src/Team10_GROS5/build/serial
+[3.321s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/serial' for CMake module files
+[3.322s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/serial' for CMake config files
+[3.322s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[3.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[3.323s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[3.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[3.327s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/serial/lib'
+[3.327s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/serial/bin'
+[3.328s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/serial/lib/pkgconfig/serial.pc'
+[3.328s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/serial/lib/python3.12/site-packages'
+[3.328s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/serial/bin'
+[3.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/package.ps1'
+[3.330s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/package.dsv'
+[3.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/package.sh'
+[3.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/package.bash'
+[3.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/package.zsh'
+[3.344s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/colcon-core/packages/serial)
+[3.349s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[3.351s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/serial' for CMake module files
+[3.352s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/serial' for CMake config files
+[3.352s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[3.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[3.356s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[3.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[3.364s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/serial/lib'
+[3.364s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/serial/bin'
+[3.365s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/serial/lib/pkgconfig/serial.pc'
+[3.365s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/serial/lib/python3.12/site-packages'
+[3.369s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/serial/bin'
+[3.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/package.ps1'
+[3.383s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/package.dsv'
+[3.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/package.sh'
+[3.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/package.bash'
+[3.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/serial/package.zsh'
+[3.389s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/racecar/ros2_ws/src/Team10_GROS5/install/serial/share/colcon-core/packages/serial)
+[3.392s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_beacon' with build type 'ament_python'
+[3.393s] Level 1:colcon.colcon_core.shell:create_environment_hook('racecar_beacon', 'ament_prefix_path')
+[3.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/share/racecar_beacon/hook/ament_prefix_path.ps1'
+[3.394s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/share/racecar_beacon/hook/ament_prefix_path.dsv'
+[3.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/share/racecar_beacon/hook/ament_prefix_path.sh'
+[3.397s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.397s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.928s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_beacon'
+[3.929s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.929s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.937s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/share/ament_index/resource_index/packages/racecar_bringup
+[3.937s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/share/racecar_bringup/package.xml
+[3.937s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/share/racecar_bringup/launch/GRO520.launch.py
+[3.937s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/share/racecar_bringup/launch/GRO830.launch.py
+[3.937s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/share/racecar_bringup/launch/teleop.launch.py
+[3.937s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/share/racecar_bringup/launch/GRO525.launch.py
+[3.937s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/share/racecar_bringup/launch/GRO501_P2.launch.py
+[3.937s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/share/racecar_bringup/launch/GRO501_P1.launch.py
+[3.937s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/share/racecar_bringup/launch/bringup.launch.py
+[3.937s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/share/racecar_bringup/launch/rviz.launch.py
+[3.937s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/share/racecar_bringup/launch
+[3.938s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/lib/racecar_bringup/arduino_sensors
+[3.938s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/lib/racecar_bringup/cmd_vel_arbitration
+[3.938s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/lib/racecar_bringup/test
+[3.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_bringup/build --no-deps symlink_data --force
+[3.942s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/share/ament_index/resource_index/packages/racecar_autopilot
+[3.943s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/share/racecar_autopilot/package.xml
+[3.943s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/racecar_autopilot/slash_controller
+[3.943s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/racecar_autopilot/wall_estimator
+[3.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/build --no-deps symlink_data --force
+[3.954s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/share/ament_index/resource_index/packages/racecar_behaviors
+[3.954s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/share/racecar_behaviors/package.xml
+[3.955s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/share/racecar_behaviors/behaviors.launch.py
+[3.955s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/share/racecar_behaviors/blob_detection.launch.py
+[3.956s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/share/racecar_behaviors/BlobDetector.cfg
+[3.958s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors/blob_detector
+[3.958s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors/goal_planner
+[3.959s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors/labo_brushfire
+[3.959s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors/laserscan_to_pointcloud
+[3.959s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors/libbehaviors
+[3.959s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors/obstacle_detector
+[3.959s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors/path_following
+[3.959s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors/u_turn
+[3.959s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors/u_turn_goal
+[3.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/build --no-deps symlink_data --force
+[5.574s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/share/ament_index/resource_index/packages/racecar_beacon
+[5.575s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/share/racecar_beacon/package.xml
+[5.576s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/racecar_beacon/lab_chat_client
+[5.577s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/racecar_beacon/lab_chat_server
+[5.577s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/racecar_beacon/lab_poll_pos
+[5.577s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/racecar_beacon/remote_client
+[5.577s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/racecar_beacon/ros_monitor
+[5.577s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/racecar_beacon/vehicle_tracker
+[5.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build --no-deps symlink_data --force
+[6.066s] Level 1:colcon.colcon_core.shell:create_environment_hook('racecar_behaviors', 'pythonpath_develop')
+[6.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/share/racecar_behaviors/hook/pythonpath_develop.ps1'
+[6.070s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/build --no-deps symlink_data --force
+[6.071s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/share/racecar_behaviors/hook/pythonpath_develop.dsv'
+[6.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/share/racecar_behaviors/hook/pythonpath_develop.sh'
+[6.076s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors' for CMake module files
+[6.080s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors' for CMake config files
+[6.082s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib'
+[6.082s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/bin'
+[6.082s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/pkgconfig/racecar_behaviors.pc'
+[6.083s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/python3.12/site-packages'
+[6.084s] Level 1:colcon.colcon_core.shell:create_environment_hook('racecar_behaviors', 'pythonpath')
+[6.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/share/racecar_behaviors/hook/pythonpath.ps1'
+[6.096s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/share/racecar_behaviors/hook/pythonpath.dsv'
+[6.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/share/racecar_behaviors/hook/pythonpath.sh'
+[6.144s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/bin'
+[6.144s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(racecar_behaviors)
+[6.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/share/racecar_behaviors/package.ps1'
+[6.146s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/share/racecar_behaviors/package.dsv'
+[6.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/share/racecar_behaviors/package.sh'
+[6.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/share/racecar_behaviors/package.bash'
+[6.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/share/racecar_behaviors/package.zsh'
+[6.148s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/share/colcon-core/packages/racecar_behaviors)
+[6.149s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_description' with build type 'ament_python'
+[6.149s] Level 1:colcon.colcon_core.shell:create_environment_hook('racecar_description', 'ament_prefix_path')
+[6.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/hook/ament_prefix_path.ps1'
+[6.150s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/hook/ament_prefix_path.dsv'
+[6.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/hook/ament_prefix_path.sh'
+[6.154s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.154s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.167s] Level 1:colcon.colcon_core.shell:create_environment_hook('racecar_autopilot', 'pythonpath_develop')
+[6.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/share/racecar_autopilot/hook/pythonpath_develop.ps1'
+[6.168s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/share/racecar_autopilot/hook/pythonpath_develop.dsv'
+[6.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/share/racecar_autopilot/hook/pythonpath_develop.sh'
+[6.170s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot' for CMake module files
+[6.170s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/build --no-deps symlink_data --force
+[6.171s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot' for CMake config files
+[6.172s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib'
+[6.172s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/bin'
+[6.172s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/pkgconfig/racecar_autopilot.pc'
+[6.172s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/python3.12/site-packages'
+[6.172s] Level 1:colcon.colcon_core.shell:create_environment_hook('racecar_autopilot', 'pythonpath')
+[6.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/share/racecar_autopilot/hook/pythonpath.ps1'
+[6.173s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/share/racecar_autopilot/hook/pythonpath.dsv'
+[6.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/share/racecar_autopilot/hook/pythonpath.sh'
+[6.174s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/bin'
+[6.174s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(racecar_autopilot)
+[6.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/share/racecar_autopilot/package.ps1'
+[6.175s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/share/racecar_autopilot/package.dsv'
+[6.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/share/racecar_autopilot/package.sh'
+[6.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/share/racecar_autopilot/package.bash'
+[6.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/share/racecar_autopilot/package.zsh'
+[6.178s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/share/colcon-core/packages/racecar_autopilot)
+[6.178s] Level 1:colcon.colcon_core.shell:create_environment_hook('racecar_bringup', 'pythonpath_develop')
+[6.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_bringup/share/racecar_bringup/hook/pythonpath_develop.ps1'
+[6.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_bringup/build --no-deps symlink_data --force
+[6.180s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_bringup/share/racecar_bringup/hook/pythonpath_develop.dsv'
+[6.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_bringup/share/racecar_bringup/hook/pythonpath_develop.sh'
+[6.182s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup' for CMake module files
+[6.184s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup' for CMake config files
+[6.185s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/lib'
+[6.185s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/bin'
+[6.185s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/lib/pkgconfig/racecar_bringup.pc'
+[6.185s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/lib/python3.12/site-packages'
+[6.186s] Level 1:colcon.colcon_core.shell:create_environment_hook('racecar_bringup', 'pythonpath')
+[6.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/share/racecar_bringup/hook/pythonpath.ps1'
+[6.198s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/share/racecar_bringup/hook/pythonpath.dsv'
+[6.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/share/racecar_bringup/hook/pythonpath.sh'
+[6.219s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/bin'
+[6.219s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(racecar_bringup)
+[6.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/share/racecar_bringup/package.ps1'
+[6.222s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/share/racecar_bringup/package.dsv'
+[6.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/share/racecar_bringup/package.sh'
+[6.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/share/racecar_bringup/package.bash'
+[6.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/share/racecar_bringup/package.zsh'
+[6.226s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/share/colcon-core/packages/racecar_bringup)
+[6.229s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_gazebo' with build type 'ament_python'
+[6.229s] Level 1:colcon.colcon_core.shell:create_environment_hook('racecar_gazebo', 'ament_prefix_path')
+[6.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/hook/ament_prefix_path.ps1'
+[6.231s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/hook/ament_prefix_path.dsv'
+[6.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/hook/ament_prefix_path.sh'
+[6.234s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.234s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.251s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_teleop' with build type 'ament_python'
+[6.252s] Level 1:colcon.colcon_core.shell:create_environment_hook('racecar_teleop', 'ament_prefix_path')
+[6.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_teleop/share/racecar_teleop/hook/ament_prefix_path.ps1'
+[6.255s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_teleop/share/racecar_teleop/hook/ament_prefix_path.dsv'
+[6.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_teleop/share/racecar_teleop/hook/ament_prefix_path.sh'
+[6.258s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.258s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.838s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_description'
+[6.839s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.839s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.433s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_gazebo'
+[7.433s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.434s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.946s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_teleop'
+[7.946s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.946s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.994s] Level 1:colcon.colcon_core.shell:create_environment_hook('racecar_beacon', 'pythonpath_develop')
+[7.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/share/racecar_beacon/hook/pythonpath_develop.ps1'
+[7.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/build --no-deps symlink_data --force
+[7.997s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/share/racecar_beacon/hook/pythonpath_develop.dsv'
+[7.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_beacon/share/racecar_beacon/hook/pythonpath_develop.sh'
+[7.999s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon' for CMake module files
+[8.000s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon' for CMake config files
+[8.002s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib'
+[8.002s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/bin'
+[8.002s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/pkgconfig/racecar_beacon.pc'
+[8.002s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/lib/python3.12/site-packages'
+[8.003s] Level 1:colcon.colcon_core.shell:create_environment_hook('racecar_beacon', 'pythonpath')
+[8.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/share/racecar_beacon/hook/pythonpath.ps1'
+[8.004s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/share/racecar_beacon/hook/pythonpath.dsv'
+[8.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/share/racecar_beacon/hook/pythonpath.sh'
+[8.007s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/bin'
+[8.007s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(racecar_beacon)
+[8.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/share/racecar_beacon/package.ps1'
+[8.010s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/share/racecar_beacon/package.dsv'
+[8.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/share/racecar_beacon/package.sh'
+[8.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/share/racecar_beacon/package.bash'
+[8.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/share/racecar_beacon/package.zsh'
+[8.014s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_beacon/share/colcon-core/packages/racecar_beacon)
+[8.016s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_serial/pb2roscpp' with build type 'ament_cmake'
+[8.016s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_serial/pb2roscpp'
+[8.017s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.017s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/pb2roscpp': AMENT_PREFIX_PATH=/home/racecar/ros2_ws/src/Team10_GROS5/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/racecar/ros2_ws/src/Team10_GROS5/install/serial:/home/racecar/rplidar_ws/install/rplidar_ros:/home/racecar/ros2_ws/install/pb2roscpp:/home/racecar/ros2_ws/install/serial:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/racecar/ros2_ws/install/racecar_teleop:/home/racecar/ros2_ws/install/racecar_navigation:/home/racecar/ros2_ws/install/racecar_gazebo:/home/racecar/ros2_ws/install/racecar_description:/home/racecar/ros2_ws/install/racecar_bringup:/home/racecar/ros2_ws/install/racecar_behaviors:/home/racecar/ros2_ws/install/racecar_beacon:/home/racecar/ros2_ws/install/racecar_autopilot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/racecar/ros2_ws/src/Team10_GROS5/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_serial/pb2roscpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/racecar/ros2_ws/src/Team10_GROS5/install/pb2roscpp
+[9.986s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/ament_index/resource_index/packages/racecar_gazebo
+[9.986s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/package.xml
+[9.986s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/parking_1/model.sdf
+[9.986s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/parking_1/model.config
+[9.986s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/cone/model.sdf
+[9.986s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/cone/model.config
+[9.986s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/walker_racecourse/model.sdf
+[9.986s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/walker_racecourse/model.config
+[9.986s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/MIT_Tunnel/ceiling_tiled.png
+[9.986s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/MIT_Tunnel/model.sdf
+[9.986s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/MIT_Tunnel/model.config
+[9.986s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/tunnel_genie/model.sdf
+[9.986s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/tunnel_genie/model.config
+[9.986s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/launch/gazebo_control.launch.py
+[9.986s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/launch/racecar_circuit.launch.py
+[9.986s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/launch/racecar_tunnel_genie.launch.py
+[9.987s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/launch/spawn_racecar.launch.py
+[9.987s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/launch/spawn_2_racecars.launch.py
+[9.987s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/launch/racecar_tunnel.launch.py
+[9.987s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/worlds/racecar_cones.world
+[9.987s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/worlds/racecar_circuit.world
+[9.987s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/worlds/racecar_parking_1.world
+[9.987s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/worlds/racecar_tunnel_genie.world
+[9.987s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/worlds/racecar.world
+[9.987s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/worlds/racecar_tunnel.world
+[9.987s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/config/gazebo_control.yaml
+[9.987s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/meshes/cone.dae
+[9.987s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/meshes/walker_racecourse.dae
+[9.987s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/meshes/parking_1.dae
+[9.987s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/meshes/walker_racecourse_gray.dae
+[9.988s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/lib/racecar_gazebo/cmd_vel_to_ackermann_drive
+[9.988s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/lib/racecar_gazebo/gazebo_odometry
+[9.988s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/lib/racecar_gazebo/servo_commands
+[9.994s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/build --no-deps symlink_data --force
+[10.057s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/ament_index/resource_index/packages/racecar_description
+[10.057s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/package.xml
+[10.057s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/urdf/materials.xacro
+[10.057s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/urdf/racecar.xacro
+[10.057s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/urdf/macros.xacro
+[10.057s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/urdf/racecar.gazebo
+[10.057s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes/right_rear_wheel.dae
+[10.057s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes/left_steering_hinge.STL
+[10.057s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes/right_front_wheel.STL
+[10.057s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes/left_steering_hinge.dae
+[10.057s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes/right_steering_hinge.dae
+[10.057s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes/chassis.dae
+[10.057s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes/chassis.STL
+[10.057s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes/hokuyo.dae
+[10.057s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes/right_front_wheel.dae
+[10.057s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes/left_front_wheel.dae
+[10.057s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes/left_front_wheel.STL
+[10.057s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes/left_rear_wheel.STL
+[10.057s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes/left_rear_wheel.dae
+[10.057s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes/right_rear_wheel.STL
+[10.057s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes/right_steering_hinge.STL
+[10.057s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/config/ros_bridge.yaml
+[10.069s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/build --no-deps symlink_data --force
+[10.110s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_teleop/share/ament_index/resource_index/packages/racecar_teleop
+[10.110s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_teleop/share/racecar_teleop/package.xml
+[10.111s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_teleop/lib/racecar_teleop/slash_teleop
+[10.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_teleop': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_teleop/build --no-deps symlink_data --force
+[10.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/pb2roscpp' returned '0': AMENT_PREFIX_PATH=/home/racecar/ros2_ws/src/Team10_GROS5/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/racecar/ros2_ws/src/Team10_GROS5/install/serial:/home/racecar/rplidar_ws/install/rplidar_ros:/home/racecar/ros2_ws/install/pb2roscpp:/home/racecar/ros2_ws/install/serial:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/racecar/ros2_ws/install/racecar_teleop:/home/racecar/ros2_ws/install/racecar_navigation:/home/racecar/ros2_ws/install/racecar_gazebo:/home/racecar/ros2_ws/install/racecar_description:/home/racecar/ros2_ws/install/racecar_bringup:/home/racecar/ros2_ws/install/racecar_behaviors:/home/racecar/ros2_ws/install/racecar_beacon:/home/racecar/ros2_ws/install/racecar_autopilot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/racecar/ros2_ws/src/Team10_GROS5/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_serial/pb2roscpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/racecar/ros2_ws/src/Team10_GROS5/install/pb2roscpp
+[10.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/pb2roscpp': AMENT_PREFIX_PATH=/home/racecar/ros2_ws/src/Team10_GROS5/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/racecar/ros2_ws/src/Team10_GROS5/install/serial:/home/racecar/rplidar_ws/install/rplidar_ros:/home/racecar/ros2_ws/install/pb2roscpp:/home/racecar/ros2_ws/install/serial:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/racecar/ros2_ws/install/racecar_teleop:/home/racecar/ros2_ws/install/racecar_navigation:/home/racecar/ros2_ws/install/racecar_gazebo:/home/racecar/ros2_ws/install/racecar_description:/home/racecar/ros2_ws/install/racecar_bringup:/home/racecar/ros2_ws/install/racecar_behaviors:/home/racecar/ros2_ws/install/racecar_beacon:/home/racecar/ros2_ws/install/racecar_autopilot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/racecar/ros2_ws/src/Team10_GROS5/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/racecar/ros2_ws/src/Team10_GROS5/build/pb2roscpp -- -j4 -l4
+[12.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/pb2roscpp' returned '0': AMENT_PREFIX_PATH=/home/racecar/ros2_ws/src/Team10_GROS5/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/racecar/ros2_ws/src/Team10_GROS5/install/serial:/home/racecar/rplidar_ws/install/rplidar_ros:/home/racecar/ros2_ws/install/pb2roscpp:/home/racecar/ros2_ws/install/serial:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/racecar/ros2_ws/install/racecar_teleop:/home/racecar/ros2_ws/install/racecar_navigation:/home/racecar/ros2_ws/install/racecar_gazebo:/home/racecar/ros2_ws/install/racecar_description:/home/racecar/ros2_ws/install/racecar_bringup:/home/racecar/ros2_ws/install/racecar_behaviors:/home/racecar/ros2_ws/install/racecar_beacon:/home/racecar/ros2_ws/install/racecar_autopilot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/racecar/ros2_ws/src/Team10_GROS5/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/racecar/ros2_ws/src/Team10_GROS5/build/pb2roscpp -- -j4 -l4
+[12.099s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/pb2roscpp': AMENT_PREFIX_PATH=/home/racecar/ros2_ws/src/Team10_GROS5/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/racecar/ros2_ws/src/Team10_GROS5/install/serial:/home/racecar/rplidar_ws/install/rplidar_ros:/home/racecar/ros2_ws/install/pb2roscpp:/home/racecar/ros2_ws/install/serial:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/racecar/ros2_ws/install/racecar_teleop:/home/racecar/ros2_ws/install/racecar_navigation:/home/racecar/ros2_ws/install/racecar_gazebo:/home/racecar/ros2_ws/install/racecar_description:/home/racecar/ros2_ws/install/racecar_bringup:/home/racecar/ros2_ws/install/racecar_behaviors:/home/racecar/ros2_ws/install/racecar_beacon:/home/racecar/ros2_ws/install/racecar_autopilot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/racecar/ros2_ws/src/Team10_GROS5/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/racecar/ros2_ws/src/Team10_GROS5/build/pb2roscpp
+[12.489s] Level 1:colcon.colcon_core.shell:create_environment_hook('racecar_gazebo', 'pythonpath_develop')
+[12.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/share/racecar_gazebo/hook/pythonpath_develop.ps1'
+[12.492s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/build --no-deps symlink_data --force
+[12.494s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/share/racecar_gazebo/hook/pythonpath_develop.dsv'
+[12.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/share/racecar_gazebo/hook/pythonpath_develop.sh'
+[12.497s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo' for CMake module files
+[12.499s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo' for CMake config files
+[12.502s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/lib'
+[12.502s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/bin'
+[12.503s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/lib/pkgconfig/racecar_gazebo.pc'
+[12.503s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/lib/python3.12/site-packages'
+[12.504s] Level 1:colcon.colcon_core.shell:create_environment_hook('racecar_gazebo', 'pythonpath')
+[12.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/hook/pythonpath.ps1'
+[12.515s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/hook/pythonpath.dsv'
+[12.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/hook/pythonpath.sh'
+[12.534s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/bin'
+[12.536s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(racecar_gazebo)
+[12.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/package.ps1'
+[12.548s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/package.dsv'
+[12.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/package.sh'
+[12.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/package.bash'
+[12.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/package.zsh'
+[12.560s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/colcon-core/packages/racecar_gazebo)
+[12.566s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_navigation' with build type 'ament_python'
+[12.566s] Level 1:colcon.colcon_core.shell:create_environment_hook('racecar_navigation', 'ament_prefix_path')
+[12.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/hook/ament_prefix_path.ps1'
+[12.569s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/hook/ament_prefix_path.dsv'
+[12.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/hook/ament_prefix_path.sh'
+[12.572s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.573s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.600s] Level 1:colcon.colcon_core.shell:create_environment_hook('racecar_teleop', 'pythonpath_develop')
+[12.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_teleop/share/racecar_teleop/hook/pythonpath_develop.ps1'
+[12.602s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_teleop' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_teleop/build --no-deps symlink_data --force
+[12.602s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_teleop/share/racecar_teleop/hook/pythonpath_develop.dsv'
+[12.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_teleop/share/racecar_teleop/hook/pythonpath_develop.sh'
+[12.604s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_teleop' for CMake module files
+[12.605s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_teleop' for CMake config files
+[12.606s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_teleop/lib'
+[12.607s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_teleop/bin'
+[12.607s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_teleop/lib/pkgconfig/racecar_teleop.pc'
+[12.607s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_teleop/lib/python3.12/site-packages'
+[12.608s] Level 1:colcon.colcon_core.shell:create_environment_hook('racecar_teleop', 'pythonpath')
+[12.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_teleop/share/racecar_teleop/hook/pythonpath.ps1'
+[12.612s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_teleop/share/racecar_teleop/hook/pythonpath.dsv'
+[12.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_teleop/share/racecar_teleop/hook/pythonpath.sh'
+[12.614s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_teleop/bin'
+[12.614s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(racecar_teleop)
+[12.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_teleop/share/racecar_teleop/package.ps1'
+[12.616s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_teleop/share/racecar_teleop/package.dsv'
+[12.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_teleop/share/racecar_teleop/package.sh'
+[12.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_teleop/share/racecar_teleop/package.bash'
+[12.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_teleop/share/racecar_teleop/package.zsh'
+[12.620s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_teleop/share/colcon-core/packages/racecar_teleop)
+[13.173s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_navigation'
+[13.174s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.174s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.192s] Level 1:colcon.colcon_core.shell:create_environment_hook('racecar_description', 'pythonpath_develop')
+[13.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/share/racecar_description/hook/pythonpath_develop.ps1'
+[13.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/build --no-deps symlink_data --force
+[13.194s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/share/racecar_description/hook/pythonpath_develop.dsv'
+[13.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/share/racecar_description/hook/pythonpath_develop.sh'
+[13.195s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description' for CMake module files
+[13.196s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description' for CMake config files
+[13.197s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/lib'
+[13.198s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/bin'
+[13.198s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/lib/pkgconfig/racecar_description.pc'
+[13.198s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/lib/python3.12/site-packages'
+[13.198s] Level 1:colcon.colcon_core.shell:create_environment_hook('racecar_description', 'pythonpath')
+[13.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/hook/pythonpath.ps1'
+[13.206s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/hook/pythonpath.dsv'
+[13.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/hook/pythonpath.sh'
+[13.207s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/bin'
+[13.207s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(racecar_description)
+[13.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/package.ps1'
+[13.208s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/package.dsv'
+[13.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/package.sh'
+[13.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/package.bash'
+[13.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/package.zsh'
+[13.211s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/colcon-core/packages/racecar_description)
+[13.211s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pb2roscpp)
+[13.211s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/pb2roscpp' for CMake module files
+[13.213s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/pb2roscpp' for CMake config files
+[13.213s] Level 1:colcon.colcon_core.shell:create_environment_hook('pb2roscpp', 'cmake_prefix_path')
+[13.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/pb2roscpp/share/pb2roscpp/hook/cmake_prefix_path.ps1'
+[13.216s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/install/pb2roscpp/share/pb2roscpp/hook/cmake_prefix_path.dsv'
+[13.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/pb2roscpp/share/pb2roscpp/hook/cmake_prefix_path.sh'
+[13.218s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/pb2roscpp/lib'
+[13.218s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/pb2roscpp/bin'
+[13.218s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/pb2roscpp/lib/pkgconfig/pb2roscpp.pc'
+[13.218s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/pb2roscpp/lib/python3.12/site-packages'
+[13.219s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/pb2roscpp/bin'
+[13.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/pb2roscpp/share/pb2roscpp/package.ps1'
+[13.223s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/install/pb2roscpp/share/pb2roscpp/package.dsv'
+[13.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/pb2roscpp/share/pb2roscpp/package.sh'
+[13.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/pb2roscpp/share/pb2roscpp/package.bash'
+[13.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/pb2roscpp' returned '0': AMENT_PREFIX_PATH=/home/racecar/ros2_ws/src/Team10_GROS5/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/racecar/ros2_ws/src/Team10_GROS5/install/serial:/home/racecar/rplidar_ws/install/rplidar_ros:/home/racecar/ros2_ws/install/pb2roscpp:/home/racecar/ros2_ws/install/serial:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/racecar/ros2_ws/install/racecar_teleop:/home/racecar/ros2_ws/install/racecar_navigation:/home/racecar/ros2_ws/install/racecar_gazebo:/home/racecar/ros2_ws/install/racecar_description:/home/racecar/ros2_ws/install/racecar_bringup:/home/racecar/ros2_ws/install/racecar_behaviors:/home/racecar/ros2_ws/install/racecar_beacon:/home/racecar/ros2_ws/install/racecar_autopilot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/racecar/ros2_ws/src/Team10_GROS5/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/racecar/ros2_ws/src/Team10_GROS5/build/pb2roscpp
+[13.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/pb2roscpp/share/pb2roscpp/package.zsh'
+[13.227s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/racecar/ros2_ws/src/Team10_GROS5/install/pb2roscpp/share/colcon-core/packages/pb2roscpp)
+[13.228s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pb2roscpp)
+[13.228s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/pb2roscpp' for CMake module files
+[13.228s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/pb2roscpp' for CMake config files
+[13.229s] Level 1:colcon.colcon_core.shell:create_environment_hook('pb2roscpp', 'cmake_prefix_path')
+[13.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/pb2roscpp/share/pb2roscpp/hook/cmake_prefix_path.ps1'
+[13.274s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/install/pb2roscpp/share/pb2roscpp/hook/cmake_prefix_path.dsv'
+[13.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/pb2roscpp/share/pb2roscpp/hook/cmake_prefix_path.sh'
+[13.292s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/pb2roscpp/lib'
+[13.293s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/pb2roscpp/bin'
+[13.293s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/pb2roscpp/lib/pkgconfig/pb2roscpp.pc'
+[13.293s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/pb2roscpp/lib/python3.12/site-packages'
+[13.294s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/pb2roscpp/bin'
+[13.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/pb2roscpp/share/pb2roscpp/package.ps1'
+[13.295s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/install/pb2roscpp/share/pb2roscpp/package.dsv'
+[13.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/pb2roscpp/share/pb2roscpp/package.sh'
+[13.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/pb2roscpp/share/pb2roscpp/package.bash'
+[13.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/pb2roscpp/share/pb2roscpp/package.zsh'
+[13.298s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/racecar/ros2_ws/src/Team10_GROS5/install/pb2roscpp/share/colcon-core/packages/pb2roscpp)
+[14.637s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/ament_index/resource_index/packages/racecar_navigation
+[14.637s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/package.xml
+[14.637s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/launch/kalmanFilter.launch.py
+[14.637s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/launch/navigation_stack.launch.py
+[14.637s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/launch/navigation.launch.py
+[14.637s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/launch/slam.launch.py
+[14.637s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/launch/rviz.launch.py
+[14.637s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/resource/nav2_params.yaml
+[14.637s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/resource/dual_ekf_params.yaml
+[14.637s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/resource/bringup.rviz
+[14.637s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/resource/rviz_navigation.rviz
+[14.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_navigation': AMENT_PREFIX_PATH=/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/lib/python3.12/site-packages:/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_bringup:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/lib/python3.12/site-packages:/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_navigation/build --no-deps symlink_data --force
+[16.278s] Level 1:colcon.colcon_core.shell:create_environment_hook('racecar_navigation', 'pythonpath_develop')
+[16.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_navigation/share/racecar_navigation/hook/pythonpath_develop.ps1'
+[16.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_navigation' returned '0': AMENT_PREFIX_PATH=/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/lib/python3.12/site-packages:/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_bringup:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_bringup/lib/python3.12/site-packages:/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_navigation/build --no-deps symlink_data --force
+[16.280s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_navigation/share/racecar_navigation/hook/pythonpath_develop.dsv'
+[16.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_navigation/share/racecar_navigation/hook/pythonpath_develop.sh'
+[16.281s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation' for CMake module files
+[16.282s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation' for CMake config files
+[16.285s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/lib'
+[16.286s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/bin'
+[16.286s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/lib/pkgconfig/racecar_navigation.pc'
+[16.287s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/lib/python3.12/site-packages'
+[16.288s] Level 1:colcon.colcon_core.shell:create_environment_hook('racecar_navigation', 'pythonpath')
+[16.288s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/hook/pythonpath.ps1'
+[16.292s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/hook/pythonpath.dsv'
+[16.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/hook/pythonpath.sh'
+[16.309s] Level 1:colcon.colcon_core.environment:checking '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/bin'
+[16.309s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(racecar_navigation)
+[16.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/package.ps1'
+[16.310s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/package.dsv'
+[16.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/package.sh'
+[16.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/package.bash'
+[16.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/racecar_navigation/package.zsh'
+[16.312s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_navigation/share/colcon-core/packages/racecar_navigation)
+[16.313s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.313s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.314s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.314s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.350s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.350s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.350s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.414s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.415s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/racecar/ros2_ws/src/Team10_GROS5/install/local_setup.ps1'
+[16.436s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/racecar/ros2_ws/src/Team10_GROS5/install/_local_setup_util_ps1.py'
+[16.458s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/racecar/ros2_ws/src/Team10_GROS5/install/setup.ps1'
+[16.461s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/racecar/ros2_ws/src/Team10_GROS5/install/local_setup.sh'
+[16.462s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/racecar/ros2_ws/src/Team10_GROS5/install/_local_setup_util_sh.py'
+[16.463s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/racecar/ros2_ws/src/Team10_GROS5/install/setup.sh'
+[16.465s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/racecar/ros2_ws/src/Team10_GROS5/install/local_setup.bash'
+[16.466s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/racecar/ros2_ws/src/Team10_GROS5/install/setup.bash'
+[16.468s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/racecar/ros2_ws/src/Team10_GROS5/install/local_setup.zsh'
+[16.469s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/racecar/ros2_ws/src/Team10_GROS5/install/setup.zsh'

@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing racecar_autopilot.egg-info/PKG-INFO
+writing dependency_links to racecar_autopilot.egg-info/dependency_links.txt
+writing entry points to racecar_autopilot.egg-info/entry_points.txt
+writing requirements to racecar_autopilot.egg-info/requires.txt
+writing top-level names to racecar_autopilot.egg-info/top_level.txt
+reading manifest file 'racecar_autopilot.egg-info/SOURCES.txt'
+writing manifest file 'racecar_autopilot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/python3.12/site-packages/racecar-autopilot.egg-link (link to .)
+Installing slash_controller script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/racecar_autopilot
+Installing wall_estimator script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/racecar_autopilot
+
+Installed /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot
+running symlink_data
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/resource/racecar_autopilot -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/share/ament_index/resource_index/packages
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/package.xml -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/share/racecar_autopilot

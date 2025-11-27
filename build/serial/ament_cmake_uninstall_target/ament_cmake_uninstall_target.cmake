@@ -55,3 +55,9 @@ endforeach()
 message(STATUS "Execute custom uninstall script")
 
 # begin of custom uninstall code
+<<<<<<< HEAD
+=======
+
+# uninstall files installed using the symlink install functions
+include("/home/racecar/ros2_ws/src/Team10_GROS5/build/serial/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake")
+>>>>>>> 5f8b865 (bag recording)

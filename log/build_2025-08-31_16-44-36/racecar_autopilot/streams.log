@@ -1,0 +1,34 @@
+[3.198s] Invoking command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/build
+[4.028s] running develop
+[4.527s] Removing /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/python3.12/site-packages/racecar-autopilot.egg-link (link to .)
+[4.685s] Invoked command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/build
+[4.687s] Invoking command in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_autopilot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/racecar_autopilot build --build-base /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/build install --record /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/install.log --single-version-externally-managed install_data --force
+[5.512s] running egg_info
+[5.557s] writing ../../build/racecar_autopilot/racecar_autopilot.egg-info/PKG-INFO
+[5.558s] writing dependency_links to ../../build/racecar_autopilot/racecar_autopilot.egg-info/dependency_links.txt
+[5.559s] writing entry points to ../../build/racecar_autopilot/racecar_autopilot.egg-info/entry_points.txt
+[5.561s] writing requirements to ../../build/racecar_autopilot/racecar_autopilot.egg-info/requires.txt
+[5.562s] writing top-level names to ../../build/racecar_autopilot/racecar_autopilot.egg-info/top_level.txt
+[5.674s] reading manifest file '../../build/racecar_autopilot/racecar_autopilot.egg-info/SOURCES.txt'
+[5.674s] writing manifest file '../../build/racecar_autopilot/racecar_autopilot.egg-info/SOURCES.txt'
+[5.675s] running build
+[5.675s] running build_py
+[5.676s] running install
+[5.699s] running install_lib
+[5.766s] creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/python3.12/site-packages/racecar_autopilot
+[5.766s] copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/build/lib/racecar_autopilot/wall_estimator.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/python3.12/site-packages/racecar_autopilot
+[5.766s] copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/build/lib/racecar_autopilot/slash_controller.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/python3.12/site-packages/racecar_autopilot
+[5.766s] copying /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/build/lib/racecar_autopilot/__init__.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/python3.12/site-packages/racecar_autopilot
+[5.769s] byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/python3.12/site-packages/racecar_autopilot/wall_estimator.py to wall_estimator.cpython-312.pyc
+[5.769s] byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/python3.12/site-packages/racecar_autopilot/slash_controller.py to slash_controller.cpython-312.pyc
+[5.773s] byte-compiling /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/python3.12/site-packages/racecar_autopilot/__init__.py to __init__.cpython-312.pyc
+[5.773s] running install_data
+[5.774s] copying resource/racecar_autopilot -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/share/ament_index/resource_index/packages
+[5.775s] copying package.xml -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/share/racecar_autopilot
+[5.775s] running install_egg_info
+[5.819s] Copying ../../build/racecar_autopilot/racecar_autopilot.egg-info to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/python3.12/site-packages/racecar_autopilot-0.0.0-py3.12.egg-info
+[5.826s] running install_scripts
+[6.247s] Installing slash_controller script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/racecar_autopilot
+[6.247s] Installing wall_estimator script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/racecar_autopilot
+[6.249s] writing list of installed files to '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/install.log'
+[6.400s] Invoked command in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_autopilot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_autopilot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/racecar_autopilot build --build-base /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/build install --record /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_autopilot/install.log --single-version-externally-managed install_data --force

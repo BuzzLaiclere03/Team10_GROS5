@@ -1,0 +1,44 @@
+running egg_info
+creating ../../build/racecar_description/racecar_description.egg-info
+writing ../../build/racecar_description/racecar_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/racecar_description/racecar_description.egg-info/dependency_links.txt
+writing requirements to ../../build/racecar_description/racecar_description.egg-info/requires.txt
+writing top-level names to ../../build/racecar_description/racecar_description.egg-info/top_level.txt
+writing manifest file '../../build/racecar_description/racecar_description.egg-info/SOURCES.txt'
+reading manifest file '../../build/racecar_description/racecar_description.egg-info/SOURCES.txt'
+writing manifest file '../../build/racecar_description/racecar_description.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/ament_index
+creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/ament_index/resource_index
+creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/ament_index/resource_index/packages
+copying resource/racecar_description -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/ament_index/resource_index/packages
+copying package.xml -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description
+creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/urdf
+copying urdf/materials.xacro -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/urdf
+copying urdf/racecar.xacro -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/urdf
+copying urdf/macros.xacro -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/urdf
+copying urdf/racecar.gazebo -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/urdf
+creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+copying meshes/right_rear_wheel.dae -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+copying meshes/left_steering_hinge.STL -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+copying meshes/right_front_wheel.STL -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+copying meshes/left_steering_hinge.dae -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+copying meshes/right_steering_hinge.dae -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+copying meshes/chassis.dae -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+copying meshes/chassis.STL -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+copying meshes/hokuyo.dae -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+copying meshes/right_front_wheel.dae -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+copying meshes/left_front_wheel.dae -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+copying meshes/left_front_wheel.STL -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+copying meshes/left_rear_wheel.STL -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+copying meshes/left_rear_wheel.dae -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+copying meshes/right_rear_wheel.STL -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+copying meshes/right_steering_hinge.STL -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/meshes
+creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/config
+copying config/ros_bridge.yaml -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/share/racecar_description/config
+running install_egg_info
+Copying ../../build/racecar_description/racecar_description.egg-info to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_description/lib/python3.12/site-packages/racecar_description-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_description/install.log'

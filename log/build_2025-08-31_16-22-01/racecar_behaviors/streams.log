@@ -1,0 +1,30 @@
+[3.648s] Invoking command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/build --no-deps symlink_data --force
+[4.615s] running develop
+[5.182s] running egg_info
+[5.222s] writing racecar_behaviors.egg-info/PKG-INFO
+[5.227s] writing dependency_links to racecar_behaviors.egg-info/dependency_links.txt
+[5.227s] writing entry points to racecar_behaviors.egg-info/entry_points.txt
+[5.228s] writing requirements to racecar_behaviors.egg-info/requires.txt
+[5.228s] writing top-level names to racecar_behaviors.egg-info/top_level.txt
+[5.363s] reading manifest file 'racecar_behaviors.egg-info/SOURCES.txt'
+[5.366s] writing manifest file 'racecar_behaviors.egg-info/SOURCES.txt'
+[5.413s] running build_ext
+[5.544s] Creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/python3.12/site-packages/racecar-behaviors.egg-link (link to .)
+[5.545s] Installing blob_detector script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors
+[5.545s] Installing goal_planner script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors
+[5.546s] Installing labo_brushfire script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors
+[5.547s] Installing laserscan_to_pointcloud script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors
+[5.547s] Installing libbehaviors script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors
+[5.548s] Installing obstacle_detector script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors
+[5.549s] Installing path_following script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors
+[5.549s] Installing u_turn script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors
+[5.551s] Installing u_turn_goal script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/racecar_behaviors
+[5.552s] 
+[5.555s] Installed /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors
+[5.555s] running symlink_data
+[5.555s] symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/resource/racecar_behaviors -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/share/ament_index/resource_index/packages
+[5.556s] symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/package.xml -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/share/racecar_behaviors
+[5.560s] symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/launch/behaviors.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/share/racecar_behaviors
+[5.563s] symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/launch/blob_detection.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/share/racecar_behaviors
+[5.566s] symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/cfg/BlobDetector.cfg -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/share/racecar_behaviors
+[5.750s] Invoked command in '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_behaviors/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_behaviors/build --no-deps symlink_data --force

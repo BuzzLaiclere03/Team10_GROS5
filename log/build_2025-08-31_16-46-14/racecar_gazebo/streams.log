@@ -1,0 +1,23 @@
+[3.134s] Invoking command in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_gazebo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/racecar_gazebo build --build-base /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/build install --record /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/install.log --single-version-externally-managed install_data
+[3.985s] running egg_info
+[4.026s] writing ../../build/racecar_gazebo/racecar_gazebo.egg-info/PKG-INFO
+[4.027s] writing dependency_links to ../../build/racecar_gazebo/racecar_gazebo.egg-info/dependency_links.txt
+[4.027s] writing entry points to ../../build/racecar_gazebo/racecar_gazebo.egg-info/entry_points.txt
+[4.028s] writing requirements to ../../build/racecar_gazebo/racecar_gazebo.egg-info/requires.txt
+[4.028s] writing top-level names to ../../build/racecar_gazebo/racecar_gazebo.egg-info/top_level.txt
+[4.153s] reading manifest file '../../build/racecar_gazebo/racecar_gazebo.egg-info/SOURCES.txt'
+[4.155s] writing manifest file '../../build/racecar_gazebo/racecar_gazebo.egg-info/SOURCES.txt'
+[4.155s] running build
+[4.155s] running build_py
+[4.155s] running install
+[4.166s] running install_lib
+[4.213s] running install_data
+[4.213s] running install_egg_info
+[4.319s] removing '/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/lib/python3.12/site-packages/racecar_gazebo-0.0.0-py3.12.egg-info' (and everything under it)
+[4.320s] Copying ../../build/racecar_gazebo/racecar_gazebo.egg-info to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/lib/python3.12/site-packages/racecar_gazebo-0.0.0-py3.12.egg-info
+[4.328s] running install_scripts
+[4.628s] Installing cmd_vel_to_ackermann_drive script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/lib/racecar_gazebo
+[4.629s] Installing gazebo_odometry script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/lib/racecar_gazebo
+[4.629s] Installing servo_commands script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/lib/racecar_gazebo
+[4.631s] writing list of installed files to '/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/install.log'
+[4.764s] Invoked command in '/home/racecar/ros2_ws/src/Team10_GROS5/racecar-ros2/racecar_gazebo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/racecar_gazebo build --build-base /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/build install --record /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/install.log --single-version-externally-managed install_data

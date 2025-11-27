@@ -1,0 +1,47 @@
+running develop
+running egg_info
+writing racecar_gazebo.egg-info/PKG-INFO
+writing dependency_links to racecar_gazebo.egg-info/dependency_links.txt
+writing entry points to racecar_gazebo.egg-info/entry_points.txt
+writing requirements to racecar_gazebo.egg-info/requires.txt
+writing top-level names to racecar_gazebo.egg-info/top_level.txt
+reading manifest file 'racecar_gazebo.egg-info/SOURCES.txt'
+writing manifest file 'racecar_gazebo.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/lib/python3.12/site-packages/racecar-gazebo.egg-link (link to .)
+Installing cmd_vel_to_ackermann_drive script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/lib/racecar_gazebo
+Installing gazebo_odometry script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/lib/racecar_gazebo
+Installing servo_commands script to /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/lib/racecar_gazebo
+
+Installed /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo
+running symlink_data
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/resource/racecar_gazebo -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/ament_index/resource_index/packages
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/package.xml -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/models/parking_1/model.sdf -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/parking_1
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/models/parking_1/model.config -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/parking_1
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/models/cone/model.sdf -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/cone
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/models/cone/model.config -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/cone
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/models/walker_racecourse/model.sdf -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/walker_racecourse
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/models/walker_racecourse/model.config -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/walker_racecourse
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/models/MIT_Tunnel/ceiling_tiled.png -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/MIT_Tunnel
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/models/MIT_Tunnel/model.sdf -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/MIT_Tunnel
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/models/MIT_Tunnel/model.config -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/MIT_Tunnel
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/models/tunnel_genie/model.sdf -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/tunnel_genie
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/models/tunnel_genie/model.config -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/models/tunnel_genie
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/launch/gazebo_control.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/launch/
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/launch/racecar_circuit.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/launch/
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/launch/racecar_tunnel_genie.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/launch/
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/launch/spawn_racecar.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/launch/
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/launch/spawn_2_racecars.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/launch/
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/launch/racecar_tunnel.launch.py -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/launch/
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/worlds/racecar_cones.world -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/worlds/
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/worlds/racecar_circuit.world -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/worlds/
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/worlds/racecar_parking_1.world -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/worlds/
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/worlds/racecar_tunnel_genie.world -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/worlds/
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/worlds/racecar.world -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/worlds/
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/worlds/racecar_tunnel.world -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/worlds/
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/config/gazebo_control.yaml -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/config/
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/meshes/cone.dae -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/meshes/
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/meshes/walker_racecourse.dae -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/meshes/
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/meshes/parking_1.dae -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/meshes/
+symbolically linking /home/racecar/ros2_ws/src/Team10_GROS5/build/racecar_gazebo/meshes/walker_racecourse_gray.dae -> /home/racecar/ros2_ws/src/Team10_GROS5/install/racecar_gazebo/share/racecar_gazebo/meshes/
