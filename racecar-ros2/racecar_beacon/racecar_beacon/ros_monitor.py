@@ -17,18 +17,6 @@ from racecar_beacon.utils import yaw_from_quaternion
 class ROSMonitor(Node):
     def __init__(self):
         super().__init__("ros_monitor")
-<<<<<<< HEAD
-        # Robot state
-        self.id = int(0xFFFF)
-        self.position = tuple([float(0), float(0), float(0)])
-        self.obstacle_detected = bool(False)
-        self.get_logger().info("Setting up the comms")
-        # Socket parameters
-        self.host = self.declare_parameter("host", "10.0.0.1").value
-        self.remote_request_port = self.declare_parameter(
-            "remote_request_port", 65432
-        ).value
-=======
         
         self.get_logger().info("hello")
 
@@ -44,7 +32,6 @@ class ROSMonitor(Node):
         ).value
         
         #Paramètres du Socket pour diffusion
->>>>>>> 5f8b865 (bag recording)
         self.broadcast = self.declare_parameter("broadcast", "10.0.0.255").value
         self.position_broad_port = self.declare_parameter(
             "pos_broadcast_port", 65431
@@ -85,7 +72,6 @@ class ROSMonitor(Node):
 
         self.get_logger().info(f"Client connected: {addr}")
 
-<<<<<<< HEAD
         #only client can close the connection
         while True:
             #starting to get data
@@ -115,9 +101,7 @@ class ROSMonitor(Node):
         # NOTE: It is recommended to initialize your socket here.
 
         # TODO: Implement the RemoteRequest service here.
-=======
         #Seulement client peut fermer la connexion
->>>>>>> 5f8b865 (bag recording)
         while rclpy.ok():
             #Rx des données
             RXdata = conn.recv(1024)

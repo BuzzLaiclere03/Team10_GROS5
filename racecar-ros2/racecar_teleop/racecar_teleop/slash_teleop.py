@@ -86,11 +86,7 @@ class Teleop(Node):
             #If button A is active 
             elif(joy_msg.buttons[1]):   
                 # Closed-loop velocity, Closed-loop steering 
-<<<<<<< HEAD
                 self.cmd_msg.linear.x  = 1.5 #[m/s]
-=======
-                self.cmd_msg.linear.x  = 2.0 #[m/s]
->>>>>>> 44face7cce99bbb14349d4a4030411dbd9d33a2f
                 self.cmd_msg.angular.z = steering_user_input # [m]
                 self.cmd_msg.linear.z  = 0.0  # Control mode
                 
